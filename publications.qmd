@@ -5,6 +5,30 @@ title: "Publications"
 ## Peer-Reviewed Articles
 
 ::: {.pub-entry}
+![](assets/journals/jpr.jpg){.pub-cover-img fig-alt="Journal of Peace Research cover"}
+
+::: {.pub-body}
+[Where There's a Will, There's a Way: Border Walls and Refugees]{.pub-title}\
+[with Nazli Avdan and Christopher F. Gelpi. *Journal of Peace Research*, Vol. 62, Iss. 2, March 2025, pp. 375–389.]{.pub-venue}
+
+[Over the last decade, there has been a notable surge in the movement of refugees across international borders, posing significant challenges for the international community. In response, various policy measures have been implemented, including the construction of border walls, with the aim of impeding refugee influx. However, scholars have expressed doubts regarding the effectiveness of these fortifications, suggesting that walls merely redirect migrants to alternative routes, discourage return migration, or alter migrants' cost–benefit calculations. Despite these concerns, there has been a lack of rigorous testing to support or refute these claims beyond case-specific evidence. This article addresses this gap by thoroughly examining the arguments surrounding the impact of border fencing on refugee flows. We conduct a systematic, cross-national test with a two-way fixed-effects estimator, an equivalence test, and a recently developed matching estimator for time-series cross-sectional data. Our results strongly support those who are skeptical of the impact of walls: border fencing has not had any causal impact on refugee flows between 1970 and 2017, or the statistical state-of-the-art is incapable of discerning that true effect. While walls may serve as politically attractive tools for populist leaders, their actual deterrent effects are highly questionable at best.]{.pub-abstract}
+
+```{=html}
+<div class="pub-links"><a href="assets/papers/walls-refugees.pdf">PDF</a><a href="https://asrosenberg.com/s/fences-replication.zip">Replication</a><a href="https://doi.org/10.1177/00223433231200918">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{avdan2023walls,
+  author  = {Nazli Avdan and Andrew S. Rosenberg and Christopher F. Gelpi},
+  title   = {Where There's a Will, There's a Way: Border Walls and Refugees},
+  journal = {Journal of Peace Research},
+  volume  = {62},
+  number  = {2},
+  pages   = {375--389},
+  year    = {2025},
+  doi     = {10.1177/00223433231200918},
+}</code></pre></details></div>
+```
+:::
+:::
+
+::: {.pub-entry}
 ![](assets/journals/cmps.gif){.pub-cover-img fig-alt="Conflict Management and Peace Science cover"}
 
 ::: {.pub-body}
@@ -47,30 +71,6 @@ title: "Publications"
   pages   = {457--475},
   year    = {2024},
   doi     = {10.1017/S0260210523000761},
-}</code></pre></details></div>
-```
-:::
-:::
-
-::: {.pub-entry}
-![](assets/journals/jpr.jpg){.pub-cover-img fig-alt="Journal of Peace Research cover"}
-
-::: {.pub-body}
-[Where There's a Will, There's a Way: Border Walls and Refugees]{.pub-title}\
-[with Nazli Avdan and Christopher F. Gelpi. *Journal of Peace Research*, Vol. 62, Iss. 2, December 2023, pp. 375–389.]{.pub-venue}
-
-[Over the last decade, there has been a notable surge in the movement of refugees across international borders, posing significant challenges for the international community. In response, various policy measures have been implemented, including the construction of border walls, with the aim of impeding refugee influx. However, scholars have expressed doubts regarding the effectiveness of these fortifications, suggesting that walls merely redirect migrants to alternative routes, discourage return migration, or alter migrants' cost–benefit calculations. Despite these concerns, there has been a lack of rigorous testing to support or refute these claims beyond case-specific evidence. This article addresses this gap by thoroughly examining the arguments surrounding the impact of border fencing on refugee flows. We conduct a systematic, cross-national test with a two-way fixed-effects estimator, an equivalence test, and a recently developed matching estimator for time-series cross-sectional data. Our results strongly support those who are skeptical of the impact of walls: border fencing has not had any causal impact on refugee flows between 1970 and 2017, or the statistical state-of-the-art is incapable of discerning that true effect. While walls may serve as politically attractive tools for populist leaders, their actual deterrent effects are highly questionable at best.]{.pub-abstract}
-
-```{=html}
-<div class="pub-links"><a href="assets/papers/walls-refugees.pdf">PDF</a><a href="https://asrosenberg.com/s/fences-replication.zip">Replication</a><a href="https://doi.org/10.1177/00223433231200918">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{avdan2023walls,
-  author  = {Nazli Avdan and Andrew S. Rosenberg and Christopher F. Gelpi},
-  title   = {Where There's a Will, There's a Way: Border Walls and Refugees},
-  journal = {Journal of Peace Research},
-  volume  = {62},
-  number  = {2},
-  pages   = {375--389},
-  year    = {2023},
-  doi     = {10.1177/00223433231200918},
 }</code></pre></details></div>
 ```
 :::
@@ -129,7 +129,7 @@ title: "Publications"
 
 ::: {.pub-body}
 [Democratization and Representative Bureaucracy: An Analysis of Promotion Patterns in Indonesia's Civil Service, 1980–2015]{.pub-title}\
-[with Jan H. Pierskalla, Adam Lauretig, and Audrey Sacks. *American Journal of Political Science*, Vol. 65, Iss. 2, July 2020, pp. 261–277.]{.pub-venue}
+[with Jan H. Pierskalla, Adam Lauretig, and Audrey Sacks. *American Journal of Political Science*, Vol. 65, Iss. 2, April 2021, pp. 261–277.]{.pub-venue}
 
 [Civil service organizations in the developing world often lack women and minorities in leadership positions. This has important consequences for the quality of public goods provision and the perceived trustworthiness of bureaucrats. We explore the effect of democratization on the discrimination of women and minorities in the civil service. We argue democratization leads to increased discrimination due to the politicization of identity cleavages. We test our argument using administrative data from Indonesia that cover the career histories of more than four million active civil servants. We exploit the exogenous timing of Indonesia's democratization and the staggered introduction of local direct elections for identification purposes. We find strong evidence that democratization worsened the career prospects of female and some religious minority bureaucrats. Penalties are higher for employees of departments led by conservative Muslim parties, in districts with larger Muslim party vote shares or larger Muslim populations, and in the religiously conservative province of Aceh.]{.pub-abstract}
 
@@ -141,7 +141,7 @@ title: "Publications"
   volume  = {65},
   number  = {2},
   pages   = {261--277},
-  year    = {2020},
+  year    = {2021},
   doi     = {10.1111/ajps.12536},
 }</code></pre></details></div>
 ```
