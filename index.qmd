@@ -24,71 +24,10 @@ Associate Professor of Political Science · University of Florida
 
 ::: {.home-section}
 
-## About
-
 I am an Associate Professor and Director of Graduate Studies in the [Department of Political Science](https://politicalscience.ufl.edu/) at the University of Florida. My research examines the intersection of race and racism in international politics, global inequality, migration policy, forced displacement, and international order. My work has appeared in the *American Journal of Political Science*, *Political Analysis*, *International Studies Quarterly*, *Journal of Peace Research*, and other journals.
 
 My first book, [*Undesirable Immigrants: Why Racism Persists in International Migration*](books.qmd#undesirable-immigrants) (Princeton University Press, 2022), received the 2023 Best Book Award from the Race, Ethnicity, and Politics section of the American Political Science Association. I am writing a second book, *Hierarchies of Worth: Race and the Politics of Costly State Action*.
 
 I received my Ph.D. from Ohio State University, an M.Sc. (Research) in International Relations from the London School of Economics, and a B.A. in International Studies and Political Science from Johns Hopkins University. I grew up in Des Moines, Iowa.
-
-## Awards and Recognition
-
-- **2023 Best Book Award**, Race, Ethnicity, and Politics section, American Political Science Association, for *Undesirable Immigrants*.
-- **Affordable UF** badge for course materials under \$20 per credit hour.
-
-## Recent Articles
-
-::: {.pub-entry}
-![](assets/journals/cmps.gif){.pub-cover fig-alt="CMPS cover"}
-
-[Assessing Border Walls' Varied Impacts on Terrorist Group Diffusion]{.pub-title}\
-[Andrew S. Rosenberg and Nazli Avdan]{.pub-authors}\
-[Conflict Management and Peace Science, 2024]{.pub-venue}
-
-[Do border walls inhibit the spread of transnational terrorism? Previous research has primarily measured the volume of terrorism without explicitly modeling its diffusion or considering how walls might affect different groups differently. To address these oversights, the study adopts a network-based approach, analyzing the impact of border walls on the spread of violence among 63 extremist organizations from 1970 to 2017. The findings show that barriers generally inhibit diffusion, but their effectiveness varies significantly among groups.]{.pub-abstract}
-
-::: {.pub-links}
-[PDF](assets/papers/fences-violence.pdf)
-[DOI](https://doi.org/10.1177/07388942241270927)
-:::
-:::
-
-::: {.pub-entry}
-![](assets/journals/ris.jpg){.pub-cover fig-alt="Review of International Studies cover"}
-
-[Race and Systemic Crises in International Politics: An Agenda for Pluralistic Scholarship]{.pub-title}\
-[Andrew S. Rosenberg]{.pub-authors}\
-[Review of International Studies 50(3): 457–475, 2024]{.pub-venue}
-
-[Scholars of global politics have shown that issues of race and white supremacy lie at the centre of international history, the birth of the field of International Relations, and contemporary theory. I argue that race plays an equally central role in the 21st century's current and future crises: intensifying climate change, deepening inequality, the endemic instabilities of capitalism, and migration. Capitalism's winners and losers and the effects of climate change fall along racial lines, amplifying both direct and indirect racial discrimination against non-white migrants and states in the Global South. These interdependent crises will shape the next 50 years of international politics and will likely perpetuate the vicious cycle of global racial inequality.]{.pub-abstract}
-
-::: {.pub-links}
-[PDF](assets/papers/race-systemic-crises.pdf)
-[DOI](https://doi.org/10.1017/S0260210523000761)
-:::
-:::
-
-::: {.pub-entry}
-![](assets/journals/jpr.jpg){.pub-cover fig-alt="Journal of Peace Research cover"}
-
-[Where There's a Will, There's a Way: Border Walls and Refugees]{.pub-title}\
-[Nazli Avdan, Andrew S. Rosenberg, and Christopher F. Gelpi]{.pub-authors}\
-[Journal of Peace Research, 2023]{.pub-venue}
-
-[Over the last decade there has been a notable surge in refugee movement across international borders. In response, states have built border walls aimed at impeding refugee influx. We conduct a systematic, cross-national test of those walls' impact on refugee flows between 1970 and 2017 — using a two-way fixed-effects estimator, an equivalence test, and a recently developed matching estimator. The evidence consistently shows that border fences fail to deliver the anticipated outcomes. While walls may serve as politically attractive tools for populist leaders, their actual deterrent effects are highly questionable at best.]{.pub-abstract}
-
-::: {.pub-links}
-[PDF](assets/papers/walls-refugees.pdf)
-[Replication](https://asrosenberg.com/s/fences-replication.zip)
-[DOI](https://doi.org/10.1177/00223433231200918)
-:::
-:::
-
-[See all publications →](publications.qmd)
-
-## Teaching
-
-I teach graduate methods and IR theory at Florida. Current and recent courses include **Topics in Political Methodology / Linear Models** (Spring 2026), **Political Data Analysis**, **IR Theory**, **Political Network Analysis**, and a pre-term **Math Workshop**. Undergraduate offerings include **Networks in International Relations** and **Data Visualization and Literacy**. Syllabi are linked from the [Teaching](teaching.qmd) page.
 
 :::

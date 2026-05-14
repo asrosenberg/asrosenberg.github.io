@@ -41,62 +41,116 @@
   color: #1d6fa5;
 }
 
-/* Section spacing on home -------------------------------------- */
-.home-section h2 {
-  font-size: 1.35rem;
-}
-
-/* Recent articles teasers -------------------------------------- */
+/* Publication entries ------------------------------------------ */
 .pub-entry {
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.8rem;
 }
 
-.pub-entry .pub-title {
+/* Only entries with a cover get the two-column flex layout */
+.pub-entry:has(.pub-body) {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+}
+
+/* Quarto wraps a markdown image in <p>. That <p> is the first flex item. */
+.pub-entry:has(.pub-body) > p:first-child {
+  flex: 0 0 80px;
+  margin: 0;
+}
+
+.pub-cover-img {
+  width: 80px;
+  height: auto;
+  border: 1px solid #d0d7de;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  display: block;
+}
+
+.pub-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-title {
   font-weight: 700;
+  display: inline;
 }
 
-.pub-entry .pub-authors,
-.pub-entry .pub-venue {
+.pub-authors,
+.pub-venue {
   display: block;
   color: #444;
   font-size: 0.97rem;
 }
 
-.pub-entry .pub-venue {
+.pub-venue {
   font-style: italic;
 }
 
-.pub-entry .pub-blurb {
-  color: #555;
-  margin-top: 0.35rem;
-  font-size: 0.97rem;
+/* Abstract paragraphs ------------------------------------------ */
+.pub-abstract {
+  display: block;
+  color: #444;
+  font-size: 0.96rem;
+  margin-top: 0.5rem;
+  text-align: justify;
 }
 
-.pub-entry .pub-links {
-  margin-top: 0.4rem;
+/* Inline action links: [PDF] [DOI] [Replication] [BibTeX] ------ */
+.pub-links {
+  margin-top: 0.6rem;
   font-size: 0.9rem;
+  line-height: 1.9;
 }
 
-.pub-entry .pub-links a {
-  margin-right: 0.5rem;
+.pub-links > a,
+.pub-links details.bib-inline > summary {
+  color: #1d6fa5;
+  text-decoration: none;
+  margin-right: 0.55rem;
+  cursor: pointer;
 }
 
-.pub-entry .pub-links a::before { content: "["; color: #888; }
-.pub-entry .pub-links a::after  { content: "]"; color: #888; }
-
-/* Journal cover thumbnails ------------------------------------- */
-.pub-entry {
-  overflow: auto; /* contain floated cover */
+.pub-links > a:hover,
+.pub-links details.bib-inline > summary:hover {
+  text-decoration: underline;
 }
 
-.pub-cover {
-  float: left;
-  width: 72px;
-  height: auto;
-  margin: 0.3rem 1rem 0.4rem 0;
-  border: 1px solid #d0d7de;
-  border-radius: 2px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+.pub-links > a::before,
+.pub-links details.bib-inline > summary::before { content: "["; color: #888; }
+
+.pub-links > a::after,
+.pub-links details.bib-inline > summary::after  { content: "]"; color: #888; }
+
+.pub-links details.bib-inline {
+  display: inline;
+}
+
+.pub-links details.bib-inline > summary {
+  display: inline;
+  list-style: none;
+}
+
+.pub-links details.bib-inline > summary::-webkit-details-marker {
+  display: none;
+}
+
+.pub-links details.bib-inline > pre {
+  display: block;
+  margin-top: 0.7rem;
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  color: #24292e;
 }
 
 /* Affordable UF banner ----------------------------------------- */
@@ -123,55 +177,7 @@
   color: #444;
 }
 
-/* Abstract paragraphs ------------------------------------------ */
-.pub-abstract {
-  display: block;
-  color: #444;
-  font-size: 0.96rem;
-  margin-top: 0.5rem;
-  text-align: justify;
-}
-
-/* Collapsible BibTeX blocks ------------------------------------ */
-details.bib-details {
-  margin-top: 0.4rem;
-  margin-bottom: 0.5rem;
-  font-size: 0.9rem;
-}
-
-details.bib-details > summary {
-  display: inline;
-  cursor: pointer;
-  color: #1d6fa5;
-  list-style: none;
-}
-
-details.bib-details > summary::marker,
-details.bib-details > summary::-webkit-details-marker {
-  display: none;
-}
-
-details.bib-details > summary::before { content: "["; color: #888; }
-details.bib-details > summary::after  { content: "]"; color: #888; }
-
-details.bib-details[open] > summary {
-  color: #0f4a75;
-}
-
-details.bib-details > pre {
-  margin-top: 0.6rem;
-  background: #f6f8fa;
-  border: 1px solid #e1e4e8;
-  border-radius: 4px;
-  padding: 0.7rem 0.9rem;
-  font-size: 0.85rem;
-  white-space: pre-wrap;
-  word-break: break-word;
-  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
-  color: #24292e;
-}
-
-/* Quiet quotes / abstract blocks ------------------------------- */
+/* Quiet quote blocks ------------------------------------------- */
 blockquote {
   color: #555;
   border-left: 3px solid #d0d7de;
@@ -180,6 +186,6 @@ blockquote {
   margin-left: 0;
 }
 
-/* Reduce default Quarto title block on subpages ---------------- */
+/* Quarto title block ------------------------------------------- */
 .quarto-title-block .quarto-title-meta { display: none; }
 .quarto-title .title { font-weight: 700; }
