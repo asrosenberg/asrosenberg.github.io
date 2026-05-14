@@ -84,6 +84,54 @@
 .pub-entry .pub-links a::before { content: "["; color: #888; }
 .pub-entry .pub-links a::after  { content: "]"; color: #888; }
 
+/* Abstract paragraphs ------------------------------------------ */
+.pub-abstract {
+  display: block;
+  color: #444;
+  font-size: 0.96rem;
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+/* Collapsible BibTeX blocks ------------------------------------ */
+details.bib-details {
+  margin-top: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+details.bib-details > summary {
+  display: inline;
+  cursor: pointer;
+  color: #1d6fa5;
+  list-style: none;
+}
+
+details.bib-details > summary::marker,
+details.bib-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.bib-details > summary::before { content: "["; color: #888; }
+details.bib-details > summary::after  { content: "]"; color: #888; }
+
+details.bib-details[open] > summary {
+  color: #0f4a75;
+}
+
+details.bib-details > pre {
+  margin-top: 0.6rem;
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 4px;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.85rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+  color: #24292e;
+}
+
 /* Quiet quotes / abstract blocks ------------------------------- */
 blockquote {
   color: #555;
