@@ -27,6 +27,8 @@ Drafts available on request.
 ::: {.pub-entry}
 [Who Deserves to Belong? Public Opinion and U.S. Naturalization Decisions]{.pub-title}\
 [with Juliana K. Mucci and Hannah M. Alarian.]{.pub-venue}
+
+[Citizenship is one of the most important and politically sensitive policy issues in democracies worldwide. Naturalization is a crucial aspect of democratic inclusion, as it requires states and their citizens to accept immigrants as fellow citizens. American attitudes toward immigration, in particular, are well-established, with Americans often favoring immigrants from culturally similar origins or those who hold high-status positions. Yet, little is known about Americans' preferences for naturalization. This article addresses this gap by examining Americans' evaluations of United States (US) citizenship applicants. Supplementing an existing study ([osf.io/5ctkj](https://osf.io/5ctkj)), we test this theory in another original conjoint experiment to isolate attitudes toward naturalization in the US. We hypothesize that the "hidden consensus" that has been found to exist across party lines regarding immigration attitudes does not hold in the context of naturalization attitudes, especially in a polarized political climate. This study provides a further nuanced understanding of how Americans' own political identities shape their attitudes toward citizenship.]{.pub-abstract}
 :::
 
 ::: {.pub-entry}
