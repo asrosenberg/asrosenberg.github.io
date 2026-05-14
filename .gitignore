@@ -1,0 +1,14 @@
+# Quarto build output
+/_site/
+/.quarto/
+*.html
+!_freeze/**/*.html
+
+# macOS
+.DS_Store
+
+# Editor
+.Rproj.user/
+.vscode/
+
+**/*.quarto_ipynb

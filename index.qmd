@@ -1,0 +1,43 @@
+---
+title: "Andrew S. Rosenberg"
+about:
+  template: trestles
+  image: assets/headshot.webp
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:andrew.rosenberg@ufl.edu
+    - icon: file-earmark-pdf
+      text: CV
+      href: assets/asr-cv.pdf
+    - icon: github
+      text: GitHub
+      href: https://github.com/asrosenberg
+    - icon: google
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=
+---
+
+I am an Associate Professor and Director of Graduate Studies in the
+[Department of Political Science](https://politicalscience.ufl.edu/) at the
+University of Florida.
+
+My research examines the intersection of race and racism in international
+politics, global inequality, migration policy, forced displacement, and
+international order. My work has appeared in the *American Journal of Political
+Science*, *Political Analysis*, *International Studies Quarterly*, *Journal of
+Peace Research*, and other journals.
+
+My first book, [*Undesirable Immigrants: Why Racism Persists in International
+Migration*](books.qmd#undesirable-immigrants) (Princeton University Press,
+2022), received the 2023 Best Book Award from the Race, Ethnicity, and Politics
+section of the American Political Science Association. I am currently writing a
+second book, *Hierarchies of Worth: Race and the Politics of Costly State
+Action*.
+
+Before joining Florida, I earned my Ph.D. from Ohio State University, an
+M.Sc. in International Relations (Research) from the London School of
+Economics, and a B.A. in International Studies and Political Science from
+Johns Hopkins University. I grew up in Des Moines, Iowa.

@@ -1,0 +1,61 @@
+/* Andrew S. Rosenberg — site styles */
+
+:root {
+  --asr-text: #1a1a1a;
+  --asr-muted: #555;
+  --asr-accent: #0a58ca;
+}
+
+body {
+  color: var(--asr-text);
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.55;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Source Serif Pro", "Iowan Old Style", Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin-top: 2.2rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.navbar-brand {
+  font-family: "Source Serif Pro", Georgia, serif;
+  font-weight: 600;
+}
+
+a {
+  color: var(--asr-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Tighten the trestles "about" block on the home page */
+.quarto-about-trestles .about-entity {
+  padding-top: 1.5rem;
+}
+
+/* Pull-quote / abstract blocks under working papers */
+blockquote {
+  color: var(--asr-muted);
+  border-left: 3px solid #d0d7de;
+  padding-left: 1rem;
+  font-size: 0.95em;
+}
+
+/* Publication list spacing */
+main p {
+  margin-bottom: 0.9rem;
+}

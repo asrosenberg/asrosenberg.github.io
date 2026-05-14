@@ -1,0 +1,55 @@
+---
+title: "Working Papers"
+---
+
+*Drafts available on request.*
+
+**Rosenberg, Andrew S.** "Scarcity, Worthiness, and the Politics of Refugee
+Admission in the Global North." *R&R, Journal of Politics.*
+
+> Examines why some refugee crises prompt generosity while others trigger
+> restriction. Develops a formal model incorporating scarcity costs, refugee
+> racial identity, and geopolitical salience, and tests predictions using
+> country-year asylum policy data.
+
+**Rosenberg, Andrew S.** "The Discretionary Color Line in International
+Institutions."
+
+> Tests whether formally equal rules eliminate racial hierarchy in practice,
+> using the Schengen visa regime as a case. Ancestral distance predicts visa
+> refusal rates, with busier consulates discriminating more.
+
+Alarian, Hannah M., Michael Bernhard, and **Andrew S. Rosenberg**. "Traces of
+the Past: Regime Histories and Anti-Foreigner Violence in Post-Unification
+Germany."
+
+> Investigates whether distinct regime histories explain disparate patterns of
+> anti-foreigner violence in post-unification Germany, examining the impact of
+> East–West "coming to terms with the past" approaches.
+
+Mucci, Juliana K., Hannah M. Alarian, and **Andrew S. Rosenberg**. "Who
+Deserves to Belong? Public Opinion and U.S. Naturalization Decisions."
+
+**Rosenberg, Andrew S.** and Hannah M. Alarian. "National Pride and Prejudice:
+How National Identity Moderates Anti-Immigrant Attitudes."
+
+> Survey experiments testing whether connecting immigration to the NHS reduces
+> anti-immigrant sentiment among strong national identifiers.
+
+**Rosenberg, Andrew S.** "Immigration Does Not Lower Social Capital."
+
+> Uses county-level data and an instrumental variable design to challenge the
+> assumption that immigration diminishes social capital.
+
+O'Dwyer, Conor, **Andrew S. Rosenberg**, and Matthew Stenberg. "Races at the
+Bottom: Local Impacts of Official Discrimination on Election Outcomes."
+
+> Analyzes Polish "LGBT Free Zones" and their impact on Law and Justice party
+> election outcomes in 2024 municipal elections.
+
+Alarian, Hannah M., Sebastian Elischer, and **Andrew S. Rosenberg**. "Voting
+for Extremists: How Extremist Protests Influence Far-Right Voting Behavior in
+Germany."
+
+> Examines AfD proximity to right-wing extremist organizations and its
+> electoral impact across election cycles 2013–2021.
