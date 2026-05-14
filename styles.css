@@ -84,6 +84,45 @@
 .pub-entry .pub-links a::before { content: "["; color: #888; }
 .pub-entry .pub-links a::after  { content: "]"; color: #888; }
 
+/* Journal cover thumbnails ------------------------------------- */
+.pub-entry {
+  overflow: auto; /* contain floated cover */
+}
+
+.pub-cover {
+  float: left;
+  width: 72px;
+  height: auto;
+  margin: 0.3rem 1rem 0.4rem 0;
+  border: 1px solid #d0d7de;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+/* Affordable UF banner ----------------------------------------- */
+.affordable-banner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  background: #fff8e1;
+  border: 1px solid #f4dba8;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+}
+
+.affordable-badge {
+  width: 78px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.affordable-banner p {
+  margin: 0;
+  font-size: 0.97rem;
+  color: #444;
+}
+
 /* Abstract paragraphs ------------------------------------------ */
 .pub-abstract {
   display: block;
