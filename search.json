@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "working-papers.html",
+    "href": "working-papers.html",
+    "title": "Working Papers",
+    "section": "",
+    "text": "Drafts available on request.\n\nScarcity, Worthiness, and the Politics of Refugee Admission in the Global North\nAndrew S. Rosenberg\nR&R, Journal of Politics\nExamines why some refugee crises prompt generosity while others trigger restriction. Develops a formal model incorporating scarcity costs, refugee racial identity, and geopolitical salience, and tests predictions using country-year asylum policy data.\n\nEmail for draft\n\n\n\nThe Discretionary Color Line in International Institutions\nAndrew S. Rosenberg\nTests whether formally equal rules eliminate racial hierarchy in practice, using the Schengen visa regime as a case study. Ancestral distance predicts visa refusal rates, with busier consulates discriminating more.\n\nEmail for draft\n\n\n\nTraces of the Past: Regime Histories and Anti-Foreigner Violence in Post-Unification Germany\nHannah M. Alarian, Michael Bernhard, and Andrew S. Rosenberg\nInvestigates whether distinct regime histories explain disparate patterns of anti-foreigner violence in post-unification Germany, examining the impact of East–West “coming to terms with the past” approaches.\n\n\nWho Deserves to Belong? Public Opinion and U.S. Naturalization Decisions\nJuliana K. Mucci, Hannah M. Alarian, and Andrew S. Rosenberg\n\n\nNational Pride and Prejudice: How National Identity Moderates Anti-Immigrant Attitudes\nAndrew S. Rosenberg and Hannah M. Alarian\nSurvey experiments testing whether connecting immigration to the NHS reduces anti-immigrant sentiment among strong national identifiers.\n\n\nImmigration Does Not Lower Social Capital\nAndrew S. Rosenberg\nUses county-level data and an instrumental variable design to challenge the assumption that immigration diminishes social capital.\n\n\nRaces at the Bottom: Local Impacts of Official Discrimination on Election Outcomes\nConor O’Dwyer, Andrew S. Rosenberg, and Matthew Stenberg\nAnalyzes Polish “LGBT Free Zones” and their impact on Law and Justice party election outcomes in 2024 municipal elections.\n\n\nVoting for Extremists: How Extremist Protests Influence Far-Right Voting Behavior in Germany\nHannah M. Alarian, Sebastian Elischer, and Andrew S. Rosenberg\nExamines AfD proximity to right-wing extremist organizations and its electoral impact across election cycles 2013–2021."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "An R package implementing methods from Rosenberg, Knuppe, and Braumoeller (2017), Unifying the Study of Asymmetric Hypotheses, Political Analysis. The package provides routines for specifying, estimating, and testing asymmetric relationships in social-science data.\n\nGitHub Paper"
+  },
+  {
+    "objectID": "software.html#asymmetric",
+    "href": "software.html#asymmetric",
+    "title": "Software",
+    "section": "",
+    "text": "An R package implementing methods from Rosenberg, Knuppe, and Braumoeller (2017), Unifying the Study of Asymmetric Hypotheses, Political Analysis. The package provides routines for specifying, estimating, and testing asymmetric relationships in social-science data.\n\nGitHub Paper"
+  },
+  {
+    "objectID": "software.html#replication",
+    "href": "software.html#replication",
+    "title": "Software",
+    "section": "Replication",
+    "text": "Replication\nReplication code and data for my published papers are posted at the dataverse or journal-archived locations linked from each entry on the Publications page."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Andrew S. Rosenberg",
+    "section": "",
+    "text": "Associate Professor of Political Science · University of Florida"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Andrew S. Rosenberg",
+    "section": "About",
+    "text": "About\nI am an Associate Professor and Director of Graduate Studies in the Department of Political Science at the University of Florida. My research examines the intersection of race and racism in international politics, global inequality, migration policy, forced displacement, and international order. My work has appeared in the American Journal of Political Science, Political Analysis, International Studies Quarterly, Journal of Peace Research, and other journals.\nMy first book, Undesirable Immigrants: Why Racism Persists in International Migration (Princeton University Press, 2022), received the 2023 Best Book Award from the Race, Ethnicity, and Politics section of the American Political Science Association. I am writing a second book, Hierarchies of Worth: Race and the Politics of Costly State Action.\nI received my Ph.D. from Ohio State University, an M.Sc. (Research) in International Relations from the London School of Economics, and a B.A. in International Studies and Political Science from Johns Hopkins University. I grew up in Des Moines, Iowa."
+  },
+  {
+    "objectID": "index.html#awards-and-recognition",
+    "href": "index.html#awards-and-recognition",
+    "title": "Andrew S. Rosenberg",
+    "section": "Awards and Recognition",
+    "text": "Awards and Recognition\n\n2023 Best Book Award, Race, Ethnicity, and Politics section, American Political Science Association — for Undesirable Immigrants.\nAffordable UF badge for course materials under $20 per credit hour."
+  },
+  {
+    "objectID": "index.html#recent-articles",
+    "href": "index.html#recent-articles",
+    "title": "Andrew S. Rosenberg",
+    "section": "Recent Articles",
+    "text": "Recent Articles\n\nAssessing Border Walls’ Varied Impacts on Terrorist Group Diffusion\nAndrew S. Rosenberg and Nazli Avdan\nConflict Management and Peace Science, 2024\nExamines how barriers affect the spread of violence among extremist organizations between 1970 and 2017 using network analysis.\n\nDOI\n\n\n\nRace and Systemic Crises in International Politics: An Agenda for Pluralistic Scholarship\nAndrew S. Rosenberg\nReview of International Studies 50(3): 457–475, 2024\nArgues that racial inequality intersects with climate change, inequality, and migration in 21st-century international crises.\n\nDOI\n\n\n\nWhere There’s a Will, There’s a Way: Border Walls and Refugees\nNazli Avdan, Andrew S. Rosenberg, and Christopher Gelpi\nJournal of Peace Research, 2023\nTests whether border fencing effectively reduces refugee flows between 1970 and 2017.\n\nDOI\n\n\nSee all publications →"
+  },
+  {
+    "objectID": "index.html#software",
+    "href": "index.html#software",
+    "title": "Andrew S. Rosenberg",
+    "section": "Software",
+    "text": "Software\n\nasymmetric — R package A toolkit for testing asymmetric hypotheses, accompanying Rosenberg, Knuppe, and Braumoeller (2017, Political Analysis).\n\nGitHub Paper"
+  },
+  {
+    "objectID": "index.html#teaching",
+    "href": "index.html#teaching",
+    "title": "Andrew S. Rosenberg",
+    "section": "Teaching",
+    "text": "Teaching\nI teach graduate methods and IR theory at Florida. Recent and current courses include Topics in Political Methodology (POS 6747) (Spring 2026), Linear Models, Political Network Analysis, and a pre-term Math Workshop. Past undergraduate offerings include Networks in International Relations and Data Visualization and Literacy. Syllabi are available on request — see Teaching →."
+  },
+  {
+    "objectID": "books.html",
+    "href": "books.html",
+    "title": "Books",
+    "section": "",
+    "text": "Undesirable Immigrants: Why Racism Persists in International Migration. Princeton University Press, 2022. International History and Politics series.\nPrinceton University Press · Amazon\n\nBest Book Award, 2023, Race, Ethnicity, and Politics section, American Political Science Association.\n\nA book about why international migration remains stratified by race long after the formal end of racially explicit immigration laws. Drawing on quantitative analysis of bilateral migration, visa, and asylum policies — together with historical case material — Undesirable Immigrants argues that racial hierarchy has been reproduced through ostensibly neutral administrative practice.\nProfiled in Mother Jones and discussed on the New Books in Political Science podcast."
+  },
+  {
+    "objectID": "books.html#undesirable-immigrants",
+    "href": "books.html#undesirable-immigrants",
+    "title": "Books",
+    "section": "",
+    "text": "Undesirable Immigrants: Why Racism Persists in International Migration. Princeton University Press, 2022. International History and Politics series.\nPrinceton University Press · Amazon\n\nBest Book Award, 2023, Race, Ethnicity, and Politics section, American Political Science Association.\n\nA book about why international migration remains stratified by race long after the formal end of racially explicit immigration laws. Drawing on quantitative analysis of bilateral migration, visa, and asylum policies — together with historical case material — Undesirable Immigrants argues that racial hierarchy has been reproduced through ostensibly neutral administrative practice.\nProfiled in Mother Jones and discussed on the New Books in Political Science podcast."
+  },
+  {
+    "objectID": "books.html#hierarchies-of-worth",
+    "href": "books.html#hierarchies-of-worth",
+    "title": "Books",
+    "section": "Hierarchies of Worth",
+    "text": "Hierarchies of Worth\nHierarchies of Worth: Race and the Politics of Costly State Action. In progress.\nDevelops a theory of why some crises generate extraordinary state action while others produce neglect, exclusion, or procedural restraint. Examines the interaction between economic scarcity, foreign-policy incentives, and racialized moral worth judgments, extending debates on race and the liberal international order."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "andrew.rosenberg@ufl.edu"
+  },
+  {
+    "objectID": "contact.html#email",
+    "href": "contact.html#email",
+    "title": "Contact",
+    "section": "",
+    "text": "andrew.rosenberg@ufl.edu"
+  },
+  {
+    "objectID": "contact.html#office",
+    "href": "contact.html#office",
+    "title": "Contact",
+    "section": "Office",
+    "text": "Office\nDepartment of Political Science\nUniversity of Florida\nAnderson Hall\nGainesville, FL 32611"
+  },
+  {
+    "objectID": "contact.html#meetings",
+    "href": "contact.html#meetings",
+    "title": "Contact",
+    "section": "Meetings",
+    "text": "Meetings\nProspective students, collaborators, and journalists are welcome to schedule a meeting directly through my Outlook booking page: outlook.office.com/bookwithme."
+  },
+  {
+    "objectID": "contact.html#mailing-list",
+    "href": "contact.html#mailing-list",
+    "title": "Contact",
+    "section": "Mailing list",
+    "text": "Mailing list\nFor occasional updates on new papers and talks, drop me a note by email."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Assessing Border Walls’ Varied Impacts on Terrorist Group Diffusion\nAndrew S. Rosenberg and Nazli Avdan\nConflict Management and Peace Science, 2024\nExamines how barriers affect the spread of violence among extremist organizations between 1970 and 2017 using network analysis.\n\nDOI\n\n\n\nRace and Systemic Crises in International Politics: An Agenda for Pluralistic Scholarship\nAndrew S. Rosenberg\nReview of International Studies 50(3): 457–475, 2024\nArgues that racial inequality intersects with climate change, inequality, and migration in 21st-century international crises.\n\nDOI\n\n\n\nWhere There’s a Will, There’s a Way: Border Walls and Refugees\nNazli Avdan, Andrew S. Rosenberg, and Christopher Gelpi\nJournal of Peace Research, 2023\nTests whether border fencing effectively reduces refugee flows between 1970 and 2017.\n\nDOI\n\n\n\nRacial Discrimination in International Visa Policies\nAndrew S. Rosenberg\nInternational Studies Quarterly 67(2): sqad032, 2023\nAnalyzes bilateral visa waiver policies from 1973 to 2013 to demonstrate racial bias in mobility rights.\n\nDOI\n\n\n\nAgents, Structures, and the Moral Basis of Deportability\nAndrew S. Rosenberg\nSecurity Dialogue 54(6): 602–619, 2022\nExamines how state agency and citizen beliefs produce policies that entrench migrant precarity.\n\nDOI\n\n\n\nDemocratization and Representative Bureaucracy — An Analysis of Promotion Patterns in Indonesia’s Civil Service, 1980–2015\nJan H. Pierskalla, Adam Lauretig, Andrew S. Rosenberg, and Audrey Sacks\nAmerican Journal of Political Science 65(2): 261–277, 2020\nShows that democratization worsened career prospects for female and minority bureaucrats in Indonesia.\n\nDOI\n\n\n\nMeasuring Racial Bias in International Migration Flows\nAndrew S. Rosenberg\nInternational Studies Quarterly 63(4): 837–845, 2019\nDevelops a measurement tool demonstrating that migrants from majority-Black states migrate less than expected.\n\nDOI\n\n\n\nUnifying the Study of Asymmetric Hypotheses\nAndrew S. Rosenberg, Austin J. Knuppe, and Bear F. Braumoeller\nPolitical Analysis 25(3): 381–401, 2017\nClarifies asymmetric hypothesis concepts and presents methodologies for testing them empirically.\n\nDOI Software"
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-articles",
+    "href": "publications.html#peer-reviewed-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Assessing Border Walls’ Varied Impacts on Terrorist Group Diffusion\nAndrew S. Rosenberg and Nazli Avdan\nConflict Management and Peace Science, 2024\nExamines how barriers affect the spread of violence among extremist organizations between 1970 and 2017 using network analysis.\n\nDOI\n\n\n\nRace and Systemic Crises in International Politics: An Agenda for Pluralistic Scholarship\nAndrew S. Rosenberg\nReview of International Studies 50(3): 457–475, 2024\nArgues that racial inequality intersects with climate change, inequality, and migration in 21st-century international crises.\n\nDOI\n\n\n\nWhere There’s a Will, There’s a Way: Border Walls and Refugees\nNazli Avdan, Andrew S. Rosenberg, and Christopher Gelpi\nJournal of Peace Research, 2023\nTests whether border fencing effectively reduces refugee flows between 1970 and 2017.\n\nDOI\n\n\n\nRacial Discrimination in International Visa Policies\nAndrew S. Rosenberg\nInternational Studies Quarterly 67(2): sqad032, 2023\nAnalyzes bilateral visa waiver policies from 1973 to 2013 to demonstrate racial bias in mobility rights.\n\nDOI\n\n\n\nAgents, Structures, and the Moral Basis of Deportability\nAndrew S. Rosenberg\nSecurity Dialogue 54(6): 602–619, 2022\nExamines how state agency and citizen beliefs produce policies that entrench migrant precarity.\n\nDOI\n\n\n\nDemocratization and Representative Bureaucracy — An Analysis of Promotion Patterns in Indonesia’s Civil Service, 1980–2015\nJan H. Pierskalla, Adam Lauretig, Andrew S. Rosenberg, and Audrey Sacks\nAmerican Journal of Political Science 65(2): 261–277, 2020\nShows that democratization worsened career prospects for female and minority bureaucrats in Indonesia.\n\nDOI\n\n\n\nMeasuring Racial Bias in International Migration Flows\nAndrew S. Rosenberg\nInternational Studies Quarterly 63(4): 837–845, 2019\nDevelops a measurement tool demonstrating that migrants from majority-Black states migrate less than expected.\n\nDOI\n\n\n\nUnifying the Study of Asymmetric Hypotheses\nAndrew S. Rosenberg, Austin J. Knuppe, and Bear F. Braumoeller\nPolitical Analysis 25(3): 381–401, 2017\nClarifies asymmetric hypothesis concepts and presents methodologies for testing them empirically.\n\nDOI Software"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "My courses have been awarded an Affordable UF badge for materials costing less than $20 per credit hour."
+  },
+  {
+    "objectID": "teaching.html#graduate",
+    "href": "teaching.html#graduate",
+    "title": "Teaching",
+    "section": "Graduate",
+    "text": "Graduate\n\nTopics in Political Methodology (POS 6747) — Spring 2026. Graduate-level introduction to statistical modeling, with a focus on OLS regression. Built around Gelman, Hill, and Vehtari’s Regression and Other Stories.\nPolitical Data Analysis — graduate methods sequence, applied statistics and reproducible workflows in R.\nLinear Models — graduate course in the linear regression framework and its extensions.\nInternational Relations Theory — graduate proseminar in IR theory.\nPolitical Network Analysis — graduate seminar on network methods for political research.\nMath Workshop — pre-term mathematics review for incoming graduate students."
+  },
+  {
+    "objectID": "teaching.html#undergraduate",
+    "href": "teaching.html#undergraduate",
+    "title": "Teaching",
+    "section": "Undergraduate",
+    "text": "Undergraduate\n\nNetworks in International Relations — IR through the lens of network analysis.\nData Visualization and Literacy — making and reading quantitative evidence in the social sciences.\n\nSyllabi and reading lists are available on request."
+  }
+]
