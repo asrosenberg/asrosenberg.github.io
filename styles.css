@@ -149,6 +149,32 @@
   color: #24292e;
 }
 
+/* Abstract toggle (working papers) ----------------------------- */
+details.abstract-toggle {
+  margin-top: 0.45rem;
+  font-size: 0.9rem;
+}
+
+details.abstract-toggle > summary {
+  cursor: pointer;
+  color: #1d6fa5;
+  display: inline;
+  list-style: none;
+}
+
+details.abstract-toggle > summary::-webkit-details-marker { display: none; }
+details.abstract-toggle > summary:hover { text-decoration: underline; }
+details.abstract-toggle > summary::before { content: "["; color: #888; }
+details.abstract-toggle > summary::after  { content: "]"; color: #888; }
+
+details.abstract-toggle > .abstract-body {
+  display: block;
+  margin-top: 0.6rem;
+  color: #444;
+  font-size: 0.96rem;
+  text-align: justify;
+}
+
 /* Affordable UF banner ----------------------------------------- */
 .affordable-banner {
   display: flex;
