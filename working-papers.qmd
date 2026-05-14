@@ -6,63 +6,52 @@ Drafts available on request.
 
 ::: {.pub-entry}
 [Scarcity, Worthiness, and the Politics of Refugee Admission in the Global North]{.pub-title}\
-[Andrew S. Rosenberg]{.pub-authors}\
-[R&R, *Journal of Politics*]{.pub-venue}
+[R&R, *The Journal of Politics*.]{.pub-venue}
 
-[Examines why some refugee crises prompt generosity while others trigger restriction. Develops a formal model incorporating scarcity costs, refugee racial identity, and geopolitical salience, and tests predictions using country-year asylum policy data.]{.pub-blurb}
-
-::: {.pub-links}
-[Email for draft](mailto:andrew.rosenberg@ufl.edu)
-:::
+[Examines why some refugee crises prompt generosity while others trigger restriction. Develops a formal model incorporating scarcity costs, refugee racial identity, and geopolitical salience, and tests predictions using country-year asylum policy data.]{.pub-abstract}
 :::
 
 ::: {.pub-entry}
-[The Discretionary Color Line in International Institutions]{.pub-title}\
-[Andrew S. Rosenberg]{.pub-authors}
+[The Discretionary Color Line in International Institutions]{.pub-title}
 
-[Tests whether formally equal rules eliminate racial hierarchy in practice, using the Schengen visa regime as a case study. Ancestral distance predicts visa refusal rates, with busier consulates discriminating more.]{.pub-blurb}
-
-::: {.pub-links}
-[Email for draft](mailto:andrew.rosenberg@ufl.edu)
-:::
+[Tests whether formally equal rules eliminate racial hierarchy in practice, using the Schengen visa regime as a case study. Ancestral distance predicts visa refusal rates, with busier consulates discriminating more.]{.pub-abstract}
 :::
 
 ::: {.pub-entry}
 [Traces of the Past: Regime Histories and Anti-Foreigner Violence in Post-Unification Germany]{.pub-title}\
-[Hannah M. Alarian, Michael Bernhard, and Andrew S. Rosenberg]{.pub-authors}
+[with Hannah M. Alarian and Michael Bernhard.]{.pub-venue}
 
-[Investigates whether distinct regime histories explain disparate patterns of anti-foreigner violence in post-unification Germany, examining the impact of East–West "coming to terms with the past" approaches.]{.pub-blurb}
+[Investigates whether distinct regime histories explain disparate patterns of anti-foreigner violence in post-unification Germany, examining the impact of East–West "coming to terms with the past" approaches.]{.pub-abstract}
 :::
 
 ::: {.pub-entry}
 [Who Deserves to Belong? Public Opinion and U.S. Naturalization Decisions]{.pub-title}\
-[Juliana K. Mucci, Hannah M. Alarian, and Andrew S. Rosenberg]{.pub-authors}
+[with Juliana K. Mucci and Hannah M. Alarian.]{.pub-venue}
 :::
 
 ::: {.pub-entry}
 [National Pride and Prejudice: How National Identity Moderates Anti-Immigrant Attitudes]{.pub-title}\
-[Andrew S. Rosenberg and Hannah M. Alarian]{.pub-authors}
+[with Hannah M. Alarian.]{.pub-venue}
 
-[Survey experiments testing whether connecting immigration to the NHS reduces anti-immigrant sentiment among strong national identifiers.]{.pub-blurb}
+[Survey experiments testing whether connecting immigration to the NHS reduces anti-immigrant sentiment among strong national identifiers.]{.pub-abstract}
 :::
 
 ::: {.pub-entry}
-[Immigration Does Not Lower Social Capital]{.pub-title}\
-[Andrew S. Rosenberg]{.pub-authors}
+[Immigration Does Not Lower Social Capital]{.pub-title}
 
-[Uses county-level data and an instrumental variable design to challenge the assumption that immigration diminishes social capital.]{.pub-blurb}
+[Uses county-level data and an instrumental variable design to challenge the assumption that immigration diminishes social capital.]{.pub-abstract}
 :::
 
 ::: {.pub-entry}
 [Races at the Bottom: Local Impacts of Official Discrimination on Election Outcomes]{.pub-title}\
-[Conor O'Dwyer, Andrew S. Rosenberg, and Matthew Stenberg]{.pub-authors}
+[with Conor O'Dwyer and Matthew Stenberg.]{.pub-venue}
 
-[Analyzes Polish "LGBT Free Zones" and their impact on Law and Justice party election outcomes in 2024 municipal elections.]{.pub-blurb}
+[Analyzes Polish "LGBT Free Zones" and their impact on Law and Justice party election outcomes in 2024 municipal elections.]{.pub-abstract}
 :::
 
 ::: {.pub-entry}
 [Voting for Extremists: How Extremist Protests Influence Far-Right Voting Behavior in Germany]{.pub-title}\
-[Hannah M. Alarian, Sebastian Elischer, and Andrew S. Rosenberg]{.pub-authors}
+[with Hannah M. Alarian and Sebastian Elischer.]{.pub-venue}
 
-[Examines AfD proximity to right-wing extremist organizations and its electoral impact across election cycles 2013–2021.]{.pub-blurb}
+[Examines AfD proximity to right-wing extremist organizations and its electoral impact across election cycles 2013–2021.]{.pub-abstract}
 :::
