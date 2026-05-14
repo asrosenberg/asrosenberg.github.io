@@ -5,6 +5,8 @@ title: "Publications"
 ## Peer-Reviewed Articles
 
 ::: {.pub-entry}
+![](assets/journals/cmps.gif){.pub-cover fig-alt="Conflict Management and Peace Science cover"}
+
 [Assessing Border Walls' Varied Impacts on Terrorist Group Diffusion]{.pub-title}\
 [Andrew S. Rosenberg and Nazli Avdan]{.pub-authors}\
 [Conflict Management and Peace Science, 2024]{.pub-venue}
@@ -31,6 +33,8 @@ title: "Publications"
 :::
 
 ::: {.pub-entry}
+![](assets/journals/ris.jpg){.pub-cover fig-alt="Review of International Studies cover"}
+
 [Race and Systemic Crises in International Politics: An Agenda for Pluralistic Scholarship]{.pub-title}\
 [Andrew S. Rosenberg]{.pub-authors}\
 [Review of International Studies 50(3): 457–475, 2024]{.pub-venue}
@@ -60,6 +64,8 @@ title: "Publications"
 :::
 
 ::: {.pub-entry}
+![](assets/journals/jpr.jpg){.pub-cover fig-alt="Journal of Peace Research cover"}
+
 [Where There's a Will, There's a Way: Border Walls and Refugees]{.pub-title}\
 [Nazli Avdan, Andrew S. Rosenberg, and Christopher F. Gelpi]{.pub-authors}\
 [Journal of Peace Research, 2023]{.pub-venue}
@@ -87,6 +93,8 @@ title: "Publications"
 :::
 
 ::: {.pub-entry}
+![](assets/journals/isq.jpg){.pub-cover fig-alt="International Studies Quarterly cover"}
+
 [Racial Discrimination in International Visa Policies]{.pub-title}\
 [Andrew S. Rosenberg]{.pub-authors}\
 [International Studies Quarterly 67(2): sqad032, 2023]{.pub-venue}
@@ -117,6 +125,8 @@ title: "Publications"
 :::
 
 ::: {.pub-entry}
+![](assets/journals/security-dialogue.jpg){.pub-cover fig-alt="Security Dialogue cover"}
+
 [Agents, Structures, and the Moral Basis of Deportability]{.pub-title}\
 [Andrew S. Rosenberg]{.pub-authors}\
 [Security Dialogue 54(6): 602–619, 2022]{.pub-venue}
@@ -124,6 +134,7 @@ title: "Publications"
 [Deportability is the omnipresent possibility of deportation, which gives rise to constant fear among migrants. In this article, I argue that a focus on deportability's structural causes — such as global capitalism — obscures how the agency of state leaders and citizens produces policies that entrench this vulnerability and fear. Many in the West believe that the precarity of deportability is what migrants deserve because they are unsuitable for membership in the political community. These people are not scared of migrants. They just believe that the latter do not deserve to reap the benefits of living in their state, even if they contribute their fair share. Therefore, leaders will constantly have an incentive to securitize migrants and enact deportability-enhancing policies because the public will acquiesce. To mitigate deportability, states must cultivate a broader sense of cosmopolitan empathy about those from outside the political community. For if citizens cannot see migrants as worthy of aid or participation in their political community, they will remain susceptible to policies that reinforce deportability.]{.pub-abstract}
 
 ::: {.pub-links}
+[PDF](assets/papers/deportability.pdf)
 [DOI](https://doi.org/10.1177/09670106221113183)
 :::
 
@@ -145,6 +156,8 @@ title: "Publications"
 :::
 
 ::: {.pub-entry}
+![](assets/journals/ajps.jpg){.pub-cover fig-alt="American Journal of Political Science cover"}
+
 [Democratization and Representative Bureaucracy: An Analysis of Promotion Patterns in Indonesia's Civil Service, 1980–2015]{.pub-title}\
 [Jan H. Pierskalla, Adam Lauretig, Andrew S. Rosenberg, and Audrey Sacks]{.pub-authors}\
 [American Journal of Political Science 65(2): 261–277, 2020]{.pub-venue}
@@ -152,6 +165,7 @@ title: "Publications"
 [Civil service organizations in the developing world often lack women and minorities in leadership positions. This has important consequences for the quality of public goods provision and the perceived trustworthiness of bureaucrats. We explore the effect of democratization on the discrimination of women and minorities in the civil service. We argue democratization leads to increased discrimination due to the politicization of identity cleavages. We test our argument using administrative data from Indonesia that cover the career histories of more than four million active civil servants. We exploit the exogenous timing of Indonesia's democratization and the staggered introduction of local direct elections for identification purposes. We find strong evidence that democratization worsened the career prospects of female and some religious minority bureaucrats. Penalties are higher for employees of departments led by conservative Muslim parties, in districts with larger Muslim party vote shares or larger Muslim populations, and in the religiously conservative province of Aceh.]{.pub-abstract}
 
 ::: {.pub-links}
+[PDF](assets/papers/indonesia-bureaucracy.pdf)
 [DOI](https://doi.org/10.1111/ajps.12536)
 :::
 
@@ -173,6 +187,8 @@ title: "Publications"
 :::
 
 ::: {.pub-entry}
+![](assets/journals/isq.jpg){.pub-cover fig-alt="International Studies Quarterly cover"}
+
 [Measuring Racial Bias in International Migration Flows]{.pub-title}\
 [Andrew S. Rosenberg]{.pub-authors}\
 [International Studies Quarterly 63(4): 837–845, 2019]{.pub-venue}
@@ -203,6 +219,8 @@ title: "Publications"
 :::
 
 ::: {.pub-entry}
+![](assets/journals/political-analysis.jpg){.pub-cover fig-alt="Political Analysis cover"}
+
 [Unifying the Study of Asymmetric Hypotheses]{.pub-title}\
 [Andrew S. Rosenberg, Austin J. Knuppe, and Bear F. Braumoeller]{.pub-authors}\
 [Political Analysis 25(3): 381–401, 2017]{.pub-venue}

@@ -23,8 +23,8 @@ website:
             href: publications.qmd
           - text: "Working Papers"
             href: working-papers.qmd
-          - text: "Books"
-            href: books.qmd
+      - text: "Books"
+        href: books.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "CV"

@@ -40,6 +40,8 @@ I received my Ph.D. from Ohio State University, an M.Sc. (Research) in Internati
 ## Recent Articles
 
 ::: {.pub-entry}
+![](assets/journals/cmps.gif){.pub-cover fig-alt="CMPS cover"}
+
 [Assessing Border Walls' Varied Impacts on Terrorist Group Diffusion]{.pub-title}\
 [Andrew S. Rosenberg and Nazli Avdan]{.pub-authors}\
 [Conflict Management and Peace Science, 2024]{.pub-venue}
@@ -53,6 +55,8 @@ I received my Ph.D. from Ohio State University, an M.Sc. (Research) in Internati
 :::
 
 ::: {.pub-entry}
+![](assets/journals/ris.jpg){.pub-cover fig-alt="Review of International Studies cover"}
+
 [Race and Systemic Crises in International Politics: An Agenda for Pluralistic Scholarship]{.pub-title}\
 [Andrew S. Rosenberg]{.pub-authors}\
 [Review of International Studies 50(3): 457–475, 2024]{.pub-venue}
@@ -66,6 +70,8 @@ I received my Ph.D. from Ohio State University, an M.Sc. (Research) in Internati
 :::
 
 ::: {.pub-entry}
+![](assets/journals/jpr.jpg){.pub-cover fig-alt="Journal of Peace Research cover"}
+
 [Where There's a Will, There's a Way: Border Walls and Refugees]{.pub-title}\
 [Nazli Avdan, Andrew S. Rosenberg, and Christopher F. Gelpi]{.pub-authors}\
 [Journal of Peace Research, 2023]{.pub-venue}

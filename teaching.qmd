@@ -2,19 +2,23 @@
 title: "Teaching"
 ---
 
-My courses have been awarded an *Affordable UF* badge for materials costing
-less than \$20 per credit hour.
+::: {.affordable-banner}
+![](assets/affordable-uf.webp){.affordable-badge fig-alt="Affordable UF badge"}
+
+My courses have been awarded an **Affordable UF** badge for materials
+costing less than \$20 per credit hour.
+:::
 
 ## Graduate
 
 ::: {.pub-entry}
 [POS 6747 · Topics in Political Methodology (Linear Models)]{.pub-title}\
-[Graduate. Spring 2026 (next offering); previously Spring 2025.]{.pub-venue}
+[Graduate. Spring 2026.]{.pub-venue}
 
-[Graduate-level introduction to statistical modeling, with a focus on OLS regression. The course covers mechanics, inference, DAGs, bad controls, interactions, diagnostics, potential outcomes, matching, and panel / fixed-effects models. Built around Gelman, Hill, and Vehtari's *Regression and Other Stories*.]{.pub-abstract}
+[Graduate-level introduction to statistical modeling, with a focus on OLS regression. The course covers mechanics, inference, DAGs, bad controls, interactions, diagnostics, potential outcomes, matching, and panel / fixed-effects models.]{.pub-abstract}
 
 ::: {.pub-links}
-[Syllabus (Spring 2025)](assets/syllabi/pos6747-linear-models-sp25.pdf)
+[Syllabus (Spring 2026)](assets/syllabi/pos6747-linear-models-sp26.pdf)
 :::
 :::
 
@@ -42,12 +46,12 @@ less than \$20 per credit hour.
 
 ::: {.pub-entry}
 [Math Workshop for Political Science]{.pub-title}\
-[Graduate. Pre-term refresher, Fall 2024.]{.pub-venue}
+[Graduate. Pre-term refresher, Fall 2025.]{.pub-venue}
 
 [A pre-term refresher covering notation, basic mathematics, linear algebra, calculus (differentiation, integration, optimization), and constrained optimization. Supplemented by Khan Academy and other video resources. Designed to prepare incoming political science graduate students for quantitative methods coursework.]{.pub-abstract}
 
 ::: {.pub-links}
-[Syllabus (Fall 2024)](assets/syllabi/math-workshop-f24.pdf)
+[Syllabus (Fall 2025)](assets/syllabi/math-workshop-f25.pdf)
 :::
 :::
 
