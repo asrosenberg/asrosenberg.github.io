@@ -14,27 +14,22 @@ to your custom domain).
 
 ---
 
-## Step 1 — Find where `andrew-rosenberg.com` is registered
+## Step 1 — Log into GoDaddy
 
-Open a terminal and run:
+Both `andrew-rosenberg.com` and `asrosenberg.com` are registered with
+**GoDaddy** (nameservers `NS71/NS72.DOMAINCONTROL.COM` and
+`NS05/NS06.DOMAINCONTROL.COM` respectively — these are GoDaddy's own DNS
+servers, so DNS is managed inside the GoDaddy panel, not delegated elsewhere).
 
-```sh
-whois andrew-rosenberg.com | grep -iE "registrar|name server"
-```
-
-The output will tell you which registrar holds the domain. Common cases:
-
-- **Squarespace Domains** (now Google Domains / Squarespace) — log in at
-  [account.squarespace.com](https://account.squarespace.com/domains).
-- **GoDaddy / Namecheap / Cloudflare / Hover** — log in there.
-
-You will need access to that registrar's DNS panel for the next step.
+1. Sign in at <https://account.godaddy.com/>.
+2. Go to **My Products → Domains**.
+3. Click `andrew-rosenberg.com` → **DNS** (or **Manage DNS**).
 
 ---
 
-## Step 2 — Add GitHub Pages DNS records
+## Step 2 — Replace the DNS records on `andrew-rosenberg.com`
 
-In your registrar's DNS panel for `andrew-rosenberg.com`:
+In the DNS table:
 
 **Remove** any existing `A`, `AAAA`, or `CNAME` records on `@` (apex) and `www`
 that point to Squarespace.
@@ -91,10 +86,20 @@ Let's Encrypt cert; this can take a few minutes.)
 
 ## Step 4 — Redirect `asrosenberg.com` → `www.andrew-rosenberg.com`
 
-In your registrar for `asrosenberg.com`, configure domain forwarding to
-`https://www.andrew-rosenberg.com` (most registrars support 301 redirects
-under "Forwarding" or "Redirects"). This preserves any inbound links to the
-old domain.
+In GoDaddy, open `asrosenberg.com`:
+
+1. **My Products → Domains → asrosenberg.com → Manage**.
+2. Find **Forwarding** (under the domain settings).
+3. Add a forward:
+   - **Forward to:** `https://www.andrew-rosenberg.com`
+   - **Forward type:** Permanent (301)
+   - **Forward settings:** Forward only (not masking)
+4. Save.
+
+This preserves any existing inbound links pointing to `asrosenberg.com`.
+Note that GoDaddy implements forwarding by parking the domain on its own
+servers and serving a redirect — DNS records for `asrosenberg.com` will be
+managed automatically by GoDaddy.
 
 ---
 
