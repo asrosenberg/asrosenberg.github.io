@@ -4,36 +4,99 @@ title: "Publications"
 
 ## Peer-Reviewed Articles
 
-**Rosenberg, Andrew S.** and Nazli Avdan. 2024. "Assessing Border Walls' Varied
-Impacts on Terrorist Group Diffusion." *Conflict Management and Peace Science*.
-[[DOI]](https://doi.org/10.1177/07388942241270927)
+::: {.pub-entry}
+[Assessing Border Walls' Varied Impacts on Terrorist Group Diffusion]{.pub-title}\
+[Andrew S. Rosenberg and Nazli Avdan]{.pub-authors}\
+[Conflict Management and Peace Science, 2024]{.pub-venue}
 
-**Rosenberg, Andrew S.** 2024. "Race and Systemic Crises in International
-Politics: An Agenda for Pluralistic Scholarship." *Review of International
-Studies* 50(3): 457–475. [[DOI]](https://doi.org/10.1017/S0260210523000761)
+[Examines how barriers affect the spread of violence among extremist organizations between 1970 and 2017 using network analysis.]{.pub-blurb}
 
-Avdan, Nazli, **Andrew S. Rosenberg**, and Christopher Gelpi. 2023. "Where
-There's a Will, There's a Way: Border Walls and Refugees." *Journal of Peace
-Research*. [[DOI]](https://doi.org/10.1177/00223433231200918)
+::: {.pub-links}
+[DOI](https://doi.org/10.1177/07388942241270927)
+:::
+:::
 
-**Rosenberg, Andrew S.** 2023. "Racial Discrimination in International Visa
-Policies." *International Studies Quarterly* 67(2): sqad032.
-[[DOI]](https://doi.org/10.1093/isq/sqad032)
+::: {.pub-entry}
+[Race and Systemic Crises in International Politics: An Agenda for Pluralistic Scholarship]{.pub-title}\
+[Andrew S. Rosenberg]{.pub-authors}\
+[Review of International Studies 50(3): 457–475, 2024]{.pub-venue}
 
-**Rosenberg, Andrew S.** 2022. "Agents, Structures, and the Moral Basis of
-Deportability." *Security Dialogue* 54(6): 602–619.
-[[DOI]](https://doi.org/10.1177/09670106221113183)
+[Argues that racial inequality intersects with climate change, inequality, and migration in 21st-century international crises.]{.pub-blurb}
 
-Pierskalla, Jan H., Adam Lauretig, **Andrew S. Rosenberg**, and Audrey Sacks.
-2020. "Democratization and Representative Bureaucracy — An Analysis of
-Promotion Patterns in Indonesia's Civil Service, 1980–2015." *American Journal
-of Political Science* 65(2): 261–277.
-[[DOI]](https://doi.org/10.1111/ajps.12536)
+::: {.pub-links}
+[DOI](https://doi.org/10.1017/S0260210523000761)
+:::
+:::
 
-**Rosenberg, Andrew S.** 2019. "Measuring Racial Bias in International
-Migration Flows." *International Studies Quarterly* 63(4): 837–845.
-[[DOI]](https://doi.org/10.1093/isq/sqz039)
+::: {.pub-entry}
+[Where There's a Will, There's a Way: Border Walls and Refugees]{.pub-title}\
+[Nazli Avdan, Andrew S. Rosenberg, and Christopher Gelpi]{.pub-authors}\
+[Journal of Peace Research, 2023]{.pub-venue}
 
-**Rosenberg, Andrew S.**, Austin J. Knuppe, and Bear F. Braumoeller. 2017.
-"Unifying the Study of Asymmetric Hypotheses." *Political Analysis* 25(3):
-381–401. [[DOI]](https://doi.org/10.1017/pan.2017.16)
+[Tests whether border fencing effectively reduces refugee flows between 1970 and 2017.]{.pub-blurb}
+
+::: {.pub-links}
+[DOI](https://doi.org/10.1177/00223433231200918)
+:::
+:::
+
+::: {.pub-entry}
+[Racial Discrimination in International Visa Policies]{.pub-title}\
+[Andrew S. Rosenberg]{.pub-authors}\
+[International Studies Quarterly 67(2): sqad032, 2023]{.pub-venue}
+
+[Analyzes bilateral visa waiver policies from 1973 to 2013 to demonstrate racial bias in mobility rights.]{.pub-blurb}
+
+::: {.pub-links}
+[DOI](https://doi.org/10.1093/isq/sqad032)
+:::
+:::
+
+::: {.pub-entry}
+[Agents, Structures, and the Moral Basis of Deportability]{.pub-title}\
+[Andrew S. Rosenberg]{.pub-authors}\
+[Security Dialogue 54(6): 602–619, 2022]{.pub-venue}
+
+[Examines how state agency and citizen beliefs produce policies that entrench migrant precarity.]{.pub-blurb}
+
+::: {.pub-links}
+[DOI](https://doi.org/10.1177/09670106221113183)
+:::
+:::
+
+::: {.pub-entry}
+[Democratization and Representative Bureaucracy — An Analysis of Promotion Patterns in Indonesia's Civil Service, 1980–2015]{.pub-title}\
+[Jan H. Pierskalla, Adam Lauretig, Andrew S. Rosenberg, and Audrey Sacks]{.pub-authors}\
+[American Journal of Political Science 65(2): 261–277, 2020]{.pub-venue}
+
+[Shows that democratization worsened career prospects for female and minority bureaucrats in Indonesia.]{.pub-blurb}
+
+::: {.pub-links}
+[DOI](https://doi.org/10.1111/ajps.12536)
+:::
+:::
+
+::: {.pub-entry}
+[Measuring Racial Bias in International Migration Flows]{.pub-title}\
+[Andrew S. Rosenberg]{.pub-authors}\
+[International Studies Quarterly 63(4): 837–845, 2019]{.pub-venue}
+
+[Develops a measurement tool demonstrating that migrants from majority-Black states migrate less than expected.]{.pub-blurb}
+
+::: {.pub-links}
+[DOI](https://doi.org/10.1093/isq/sqz039)
+:::
+:::
+
+::: {.pub-entry}
+[Unifying the Study of Asymmetric Hypotheses]{.pub-title}\
+[Andrew S. Rosenberg, Austin J. Knuppe, and Bear F. Braumoeller]{.pub-authors}\
+[Political Analysis 25(3): 381–401, 2017]{.pub-venue}
+
+[Clarifies asymmetric hypothesis concepts and presents methodologies for testing them empirically.]{.pub-blurb}
+
+::: {.pub-links}
+[DOI](https://doi.org/10.1017/pan.2017.16)
+[Software](software.qmd#asymmetric)
+:::
+:::
