@@ -78,15 +78,11 @@
   display: inline;
 }
 
-.pub-authors,
 .pub-venue {
   display: block;
   color: #444;
   font-size: 0.97rem;
-}
-
-.pub-venue {
-  font-style: italic;
+  margin-top: 0.1rem;
 }
 
 /* Abstract paragraphs ------------------------------------------ */
