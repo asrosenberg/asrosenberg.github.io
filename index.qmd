@@ -10,7 +10,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:andrew.rosenberg@ufl.edu
+      href: mailto:andrewrosenberg@ufl.edu
     - icon: person-vcard
       text: CV
       href: assets/asr-cv.pdf
