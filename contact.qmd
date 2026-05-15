@@ -4,23 +4,28 @@ title: "Contact"
 
 ## Email
 
-The fastest way to reach me is by email. Write to **andrew dot rosenberg [at] ufl dot edu** — translate the brackets and "dot" into a normal address before sending. (The obfuscation is here to keep harvesters from scraping the page.)
-
-If you are a prospective Ph.D. student, please include your research interests and a brief description of what drew you to my work.
+The fastest way to reach me is by email. Write to **andrew dot rosenberg [at] ufl dot edu** — translate the brackets and "dot" into a normal address before sending.
 
 ## Office
 
 **333 Anderson Hall**\
-Department of Political Science\
 University of Florida\
+Gainesville, FL 32611
+
+## Mailing address
+
+University of Florida\
+Department of Political Science\
+234 Anderson Hall\
+P.O. Box 117325\
 Gainesville, FL 32611
 
 ```{=html}
 <div class="map-wrap">
 <iframe
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-82.349%2C29.644%2C-82.339%2C29.654&layer=mapnik&marker=29.6489%2C-82.3437"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-82.3450%2C29.6495%2C-82.3390%2C29.6535&layer=mapnik&marker=29.6515774%2C-82.3418860"
   loading="lazy"
   title="Anderson Hall, University of Florida"></iframe>
-<p class="map-attribution"><a href="https://www.openstreetmap.org/?mlat=29.6489&amp;mlon=-82.3437#map=17/29.6489/-82.3437" target="_blank" rel="noopener">View larger map</a> · © OpenStreetMap contributors</p>
+<p class="map-attribution"><a href="https://www.openstreetmap.org/?mlat=29.6515774&amp;mlon=-82.3418860#map=18/29.6515774/-82.3418860" target="_blank" rel="noopener">View larger map</a> · © OpenStreetMap contributors</p>
 </div>
 ```
