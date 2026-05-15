@@ -12,3 +12,5 @@
 .vscode/
 
 **/*.quarto_ipynb
+
+.Rhistory
