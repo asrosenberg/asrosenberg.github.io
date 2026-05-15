@@ -16,13 +16,10 @@ about:
       href: assets/asr-cv.pdf
     - icon: orcid
       text: ORCID
-      href: https://orcid.org/0000-0000-0000-0000
+      href: https://orcid.org/0000-0001-9374-7741
     - icon: google
       text: Scholar
       href: https://scholar.google.com/citations?user=
-    - icon: github
-      text: GitHub
-      href: https://github.com/asrosenberg
 toc: false
 ---
 

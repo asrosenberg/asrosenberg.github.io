@@ -46,6 +46,6 @@ format:
     fontsize: 1.0rem
     linkcolor: "#1d6fa5"
     grid:
-      body-width: 760px
+      body-width: 960px
       sidebar-width: 0px
       margin-width: 0px
