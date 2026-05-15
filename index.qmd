@@ -1,12 +1,12 @@
 ---
 title: "Andrew S. Rosenberg"
-subtitle: "Associate Professor of Political Science · University of Florida"
+subtitle: 'Associate Professor of Political Science<br>University of Florida'
 pagetitle: "Andrew S. Rosenberg"
 about:
   template: trestles
   image: assets/headshot.webp
   image-shape: rounded
-  image-width: 15em
+  image-width: 12em
   links:
     - icon: envelope
       text: Email
@@ -19,7 +19,7 @@ about:
       href: https://orcid.org/0000-0001-9374-7741
     - icon: google
       text: Scholar
-      href: https://scholar.google.com/citations?user=
+      href: https://scholar.google.com/citations?user=pQSgOXsAAAAJ&hl=en
 toc: false
 ---
 

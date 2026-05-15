@@ -10,13 +10,18 @@
 }
 
 .quarto-about-trestles .about-entity {
-  flex: 0 0 220px;
+  flex: 0 0 200px !important;
   text-align: center;
 }
 
 .quarto-about-trestles .about-contents {
-  flex: 1;
+  flex: 1 1 auto !important;
   min-width: 0;
+}
+
+.quarto-about-trestles .about-entity img {
+  max-width: 100%;
+  height: auto;
 }
 
 .quarto-about-trestles .about-entity img {
@@ -32,24 +37,16 @@
   margin-right: 0.6rem;
 }
 
-/* Keep title + subtitle on one line each */
-.quarto-title-block .title,
-.quarto-title-block .subtitle {
-  white-space: nowrap;
-  overflow: visible;
-}
-
 .quarto-title-block .subtitle {
   font-size: 1.05rem;
   color: #555;
-  margin-top: 0.1rem;
+  margin-top: 0.2rem;
+  line-height: 1.4;
 }
 
 @media (max-width: 720px) {
-  .quarto-about-trestles { flex-direction: column; gap: 1.2rem; }
-  .quarto-about-trestles .about-entity { flex: 0 0 auto; width: 100%; }
-  .quarto-title-block .title,
-  .quarto-title-block .subtitle { white-space: normal; }
+  .quarto-about-trestles { flex-direction: column !important; gap: 1.2rem; }
+  .quarto-about-trestles .about-entity { flex: 0 0 auto !important; width: 100%; }
 }
 
 /* ORCID icon — Bootstrap Icons doesn't ship one, so we inline the SVG */
