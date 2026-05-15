@@ -17,7 +17,7 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Research"
+      - text: "Papers"
         menu:
           - text: "Publications"
             href: publications.qmd
