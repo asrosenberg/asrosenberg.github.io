@@ -1,6 +1,24 @@
 /* Andrew S. Rosenberg — custom site styles */
 
 /* About-block tweaks for trestles template --------------------- */
+
+/* Asymmetric columns: narrow photo column, wide text column */
+.quarto-about-trestles {
+  display: flex;
+  gap: 2.4rem;
+  align-items: flex-start;
+}
+
+.quarto-about-trestles .about-entity {
+  flex: 0 0 220px;
+  text-align: center;
+}
+
+.quarto-about-trestles .about-contents {
+  flex: 1;
+  min-width: 0;
+}
+
 .quarto-about-trestles .about-entity img {
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -12,6 +30,26 @@
 
 .quarto-about-trestles .about-entity .about-link {
   margin-right: 0.6rem;
+}
+
+/* Keep title + subtitle on one line each */
+.quarto-title-block .title,
+.quarto-title-block .subtitle {
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.quarto-title-block .subtitle {
+  font-size: 1.05rem;
+  color: #555;
+  margin-top: 0.1rem;
+}
+
+@media (max-width: 720px) {
+  .quarto-about-trestles { flex-direction: column; gap: 1.2rem; }
+  .quarto-about-trestles .about-entity { flex: 0 0 auto; width: 100%; }
+  .quarto-title-block .title,
+  .quarto-title-block .subtitle { white-space: normal; }
 }
 
 /* ORCID icon — Bootstrap Icons doesn't ship one, so we inline the SVG */
