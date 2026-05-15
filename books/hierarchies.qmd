@@ -5,23 +5,29 @@ title: "Hierarchies of Worth"
 ::: {.book-page}
 ::: {.book-body}
 
-*Hierarchies of Worth: Race and the Politics of Costly State Action.* In progress.
+*Hierarchies of Worth: Race, Scarcity, and the Politics of Costly Action.* In progress.
 
 Why did Europeans open their homes to Ukrainian refugees in 2022 while turning away Syrians fleeing a comparable catastrophe in 2015? Why did the United States deport Haitian families at the southern border while offering Afghans and Ukrainians temporary protection? Why did Western states sanction Russia for its invasion of Ukraine while responding so differently to comparable crises in Tigray, Myanmar, and Yemen?
 
-*Hierarchies of Worth* argues that these situations share a common structural logic. Economic scarcity, foreign-policy salience, and racialized worthiness interact to determine which populations are welcomed, sustained, neglected, or excluded.
+*Hierarchies of Worth* argues that these decisions reflect a common structural logic. I call it *systemic legitimacy*: a distribution of legitimacy costs with two coordinates — an economic bedrock that defines what is materially feasible, and a hierarchy of recognized moral worth that determines whose costs are politically tolerable. States begin with first-order strategic and material calculations: whether a given costly action advances foreign-policy goals, reinforces alliances, satisfies legal obligations, or supports reputation. Those incentives are then filtered through *racialized moral conditionality* — an interpretive process by which publics and elites decide whether the relevant population makes the costs politically bearable. The same indicators of economic scarcity are treated as manageable in one case and prohibitive in another. The same foreign-policy incentives succeed in some contexts and fail in others.
 
-## Research scope
+Refugee and asylum politics are the book's point of departure because they reveal this structure with unusual clarity: states must justify visible costs imposed on domestic publics for the benefit of outsiders. But the same logic operates wherever governments take costly action toward foreign populations — humanitarian aid, border enforcement, and economic sanctions. The book is organized to test the argument across increasingly demanding settings.
 
-The argument is tested across four quantitative domains and a historical case study:
+## Table of contents
 
-1. Cross-national asylum policy across twenty-two Global North destinations, 1962–2020.
-2. U.S. border enforcement under Title 42, Uniting for Ukraine, and the CHNV parole programs.
-3. Humanitarian aid via the UN OCHA Financial Tracking Service.
-4. Economic sanctions and bilateral racial distance.
-5. The Carter administration archives (1979–1980) on the differential treatment of Vietnamese and Haitian boat people.
+1. **Who Deserves Refuge?** Introduces the empirical puzzle and the structural account of political feasibility.
+2. **The Structure of Worth.** Defines systemic legitimacy as a distribution of legitimacy costs analogous to the distribution of capabilities.
+3. **How Scarcity Becomes Political.** The mechanism of racialized moral conditionality and its domain-specific predictions.
+4. **The Cross-National Pattern of Welcome.** Asylum-policy admission and entry rules across twenty-two Global North destinations, 1962–2020.
+5. **Racialized Border Authority in Practice.** U.S. Customs and Border Protection encounter data across six legal regimes, FY2020–FY2026.
+6. **The Color of Humanitarian Aid.** Donor commitment in UN OCHA Financial Tracking Service data across more than four hundred appeals over the past decade.
+7. **Racialized Punishment and Sanctions.** Bilateral racial differences in the imposition of financial policies, travel bans, and arms restrictions.
+8. **The Carter Administration and the Boat-People Cases.** Process tracing of divergent U.S. responses to Vietnamese and Haitian maritime arrivals, 1979–1980.
+9. **Liberalism's Racial Fault Line.** What the findings imply for the future of the contemporary international order.
 
-The project extends debates on race and the liberal international order by showing how hierarchies of worth structure who receives protection, assistance, and solidarity in moments of crisis.
+## Status
+
+Chapters 1–5 are drafted. Quantitative analyses for Chapters 6 and 7 are complete. Manuscript length is projected at roughly 95,000 words, with delivery expected in 4–6 months.
 
 :::
 :::
