@@ -1,20 +1,20 @@
 /*-- scss:defaults --*/
 
-// Yiqing Xu-inspired: airy, sans-serif, light blue links
+// Type: Spectral (literary serif) for headings, IBM Plex Sans for body.
+// A deliberate move away from the Lato/Open Sans "template" look.
 
-$font-family-sans-serif: "Lato", "Source Sans Pro", "Helvetica Neue",
-  Helvetica, Arial, sans-serif !default;
-$font-family-serif: $font-family-sans-serif !default;
+$font-family-sans-serif: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif: "Spectral", Georgia, "Times New Roman", serif !default;
 $font-family-base: $font-family-sans-serif !default;
-$headings-font-family: $font-family-sans-serif !default;
+$headings-font-family: $font-family-serif !default;
 
 $body-color: #2c3e50 !default;
 $body-bg: #ffffff !default;
 $link-color: #1d6fa5 !default;
 $link-hover-color: #0f4a75 !default;
 
-$h1-font-size: 2.0rem !default;
-$h2-font-size: 1.45rem !default;
+$h1-font-size: 2.1rem !default;
+$h2-font-size: 1.5rem !default;
 $h3-font-size: 1.2rem !default;
 $h4-font-size: 1.05rem !default;
 
@@ -25,11 +25,16 @@ $navbar-fg: #2c3e50 !default;
 
 /*-- scss:rules --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
 
 body {
   font-weight: 400;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.003em;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-family: $font-family-serif;
+  letter-spacing: -0.012em;
 }
 
 h1, .h1 {
@@ -38,7 +43,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 2.5rem;
   margin-bottom: 0.8rem;
   padding-bottom: 0.4rem;
@@ -46,7 +51,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 1.8rem;
 }
 
@@ -61,9 +66,17 @@ p {
 }
 
 .navbar-brand {
-  font-weight: 700;
+  font-family: $font-family-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
 }
 
 .nav-link {
   font-weight: 400 !important;
+}
+
+/* Page title (h1.title) and book/paper titles pick up Spectral too */
+.quarto-title .title {
+  font-family: $font-family-serif;
+  font-weight: 700;
 }
