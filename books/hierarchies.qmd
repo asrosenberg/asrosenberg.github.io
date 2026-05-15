@@ -1,0 +1,27 @@
+---
+title: "Hierarchies of Worth"
+---
+
+::: {.book-page}
+::: {.book-body}
+
+*Hierarchies of Worth: Race and the Politics of Costly State Action.* In progress.
+
+Why did Europeans open their homes to Ukrainian refugees in 2022 while turning away Syrians fleeing a comparable catastrophe in 2015? Why did the United States deport Haitian families at the southern border while offering Afghans and Ukrainians temporary protection? Why did Western states sanction Russia for its invasion of Ukraine while responding so differently to comparable crises in Tigray, Myanmar, and Yemen?
+
+*Hierarchies of Worth* argues that these situations share a common structural logic. Economic scarcity, foreign-policy salience, and racialized worthiness interact to determine which populations are welcomed, sustained, neglected, or excluded.
+
+## Research scope
+
+The argument is tested across four quantitative domains and a historical case study:
+
+1. Cross-national asylum policy across twenty-two Global North destinations, 1962–2020.
+2. U.S. border enforcement under Title 42, Uniting for Ukraine, and the CHNV parole programs.
+3. Humanitarian aid via the UN OCHA Financial Tracking Service.
+4. Economic sanctions and bilateral racial distance.
+5. The Carter administration archives (1979–1980) on the differential treatment of Vietnamese and Haitian boat people.
+
+The project extends debates on race and the liberal international order by showing how hierarchies of worth structure who receives protection, assistance, and solidarity in moments of crisis.
+
+:::
+:::

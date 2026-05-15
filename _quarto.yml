@@ -24,7 +24,11 @@ website:
           - text: "Working Papers"
             href: working-papers.qmd
       - text: "Books"
-        href: books.qmd
+        menu:
+          - text: "Undesirable Immigrants"
+            href: books/undesirable.qmd
+          - text: "Hierarchies of Worth"
+            href: books/hierarchies.qmd
       - text: "Teaching"
         href: teaching.qmd
       - text: "CV"
