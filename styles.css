@@ -1,45 +1,31 @@
 /* Andrew S. Rosenberg — custom site styles */
 
-/* Home page hero block ----------------------------------------- */
-.home-hero {
-  text-align: center;
-  padding: 1.5rem 0 0.5rem;
+/* About-block tweaks for trestles template --------------------- */
+.quarto-about-trestles .about-entity img {
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.home-hero img.headshot {
-  width: 170px;
-  height: 170px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 1rem;
+.quarto-about-trestles .about-entity .about-links {
+  margin-top: 1rem;
 }
 
-.home-hero h1 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.25rem;
-  font-size: 2.1rem;
+.quarto-about-trestles .about-entity .about-link {
+  margin-right: 0.6rem;
 }
 
-.home-hero .title {
-  color: #555;
-  font-size: 1.05rem;
-  margin-bottom: 1rem;
+/* ORCID icon — Bootstrap Icons doesn't ship one, so we inline the SVG */
+.bi-orcid {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><path fill='%23A6CE39' d='M128 0a128 128 0 1 0 0 256 128 128 0 0 0 0-256z'/><g fill='%23FFF'><path d='M86.3 79.1H70.9v107.1h15.4z'/><path d='M108.9 79.1h41.6c39.6 0 57 28.3 57 53.6 0 27.5-21.5 53.6-56.8 53.6h-41.8V79.1zm15.4 93.3h24.5c34.9 0 42.9-26.5 42.9-39.7 0-21.5-13.7-39.7-43.7-39.7h-23.7v79.4z'/><circle cx='78.6' cy='56.8' r='10.1'/></g></svg>");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.home-hero .social {
-  margin: 0.8rem 0 1.6rem;
-  font-size: 1.4rem;
-}
-
-.home-hero .social a {
-  margin: 0 0.5rem;
-  color: #555;
-  text-decoration: none;
-}
-
-.home-hero .social a:hover {
-  color: #1d6fa5;
-}
+.bi-orcid::before { content: none; }
 
 /* Publication entries ------------------------------------------ */
 .pub-entry {
