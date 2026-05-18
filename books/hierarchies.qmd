@@ -21,19 +21,15 @@ In short, international politics is not only about what states can do. It is als
 
 ## Chapters
 
-| Chapter | Focus | Status |
-|---|---|---|
-| 1. The Hidden Accounting of World Politics | Motivates the puzzle; states the argument | Drafted |
-| 2. The Structure of Worth | The structural theory: worth as a distribution of political cost | Drafted |
-| 3. How Scarcity Becomes Political | The activation mechanism and its testable expectations | Drafted |
-| 4. The Cross-National Pattern of Welcome | Aggregate pattern test in refugee and asylum policy | Drafted |
-| 5. Racialized Border Authority in Practice | Within-country and cross-institution mechanism test in border enforcement | Drafted |
-| 6. The Color of Humanitarian Aid | Cross-domain extension to a diffuse-cost domain | In progress |
-| 7. Racialized Punishment and Sanctions | Cross-domain extension to punitive action | In progress |
-| 8. The Carter Administration and the Boat-People Cases | Process tracing of elite decision-making | Designed |
-| 9. Liberalism's Racial Fault Line | Conclusion: implications for liberal international order | To be written |
-
-The manuscript is projected at roughly 95,000 words. The quantitative analyses for Chapters 6 and 7 are complete; I expect to deliver the full manuscript within six months of contract.
+1. **The Hidden Accounting of World Politics.** Motivates the puzzle and states the argument.
+2. **The Structure of Worth.** The structural theory — worth as a distribution of political cost.
+3. **How Scarcity Becomes Political.** The activation mechanism and its testable expectations.
+4. **The Cross-National Pattern of Welcome.** The aggregate pattern test in refugee and asylum policy.
+5. **Racialized Border Authority in Practice.** A within-country and cross-institution mechanism test in border enforcement.
+6. **The Color of Humanitarian Aid.** A cross-domain extension to a diffuse-cost domain.
+7. **Racialized Punishment and Sanctions.** A cross-domain extension to punitive action.
+8. **The Carter Administration and the Boat-People Cases.** Process tracing of elite decision-making.
+9. **Liberalism's Racial Fault Line.** Conclusion — implications for the liberal international order.
 
 :::
 :::
