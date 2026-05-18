@@ -183,18 +183,23 @@ p {
   text-align: justify;
 }
 
-/* Inline action links: [Abstract] [PDF] [DOI] [BibTeX] [Replication] */
+/* Action links: [Abstract] [PDF] [DOI] [BibTeX] [Replication].
+   Flexbox lays every child in one row regardless of element type, so
+   <details> toggles sit inline with the <a> links without quirks. */
 .pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.55rem;
+  row-gap: 0.3rem;
   margin-top: 0.6rem;
   font-size: 0.9rem;
-  line-height: 1.9;
 }
 
 .pub-links > a,
 .pub-links details > summary {
   color: #1d6fa5;
   text-decoration: none;
-  margin-right: 0.55rem;
   cursor: pointer;
 }
 
@@ -209,14 +214,7 @@ p {
 .pub-links > a::after,
 .pub-links details > summary::after  { content: "]"; color: #888; }
 
-/* Each <details> holds ONLY its summary — a pure inline toggle with no
-   block child — so the whole link row stays on one line. */
-.pub-links details {
-  display: inline;
-}
-
 .pub-links details > summary {
-  display: inline;
   list-style: none;
 }
 
@@ -224,17 +222,17 @@ p {
   display: none;
 }
 
-/* Expandable panels are separate blocks after the link row, revealed
-   when their matching toggle carries the [open] attribute. */
+/* Panels take a full-width row of their own when revealed */
 .pub-links .abs-panel,
 .pub-links .bib-panel {
+  flex-basis: 100%;
   display: none;
 }
 
 .pub-links details.abs-toggle[open] ~ .abs-panel,
 .pub-links details.bib-toggle[open] ~ .bib-panel {
   display: block;
-  margin-top: 0.7rem;
+  margin-top: 0.4rem;
 }
 
 /* Abstract and BibTeX panels share the same boxed look */
