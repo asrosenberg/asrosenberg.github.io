@@ -31,16 +31,30 @@ Press `Ctrl+C` to stop the preview.
 
 ## Updating the CV
 
-Your CV lives at `~/Dropbox/CV/asr-vita.pdf`. To publish a new version:
+Your CV lives at `~/Dropbox/CV/asr-vita.pdf`.
+
+**Automatic:** a launchd agent (`~/Library/LaunchAgents/com.asrosenberg.cv-sync.plist`)
+watches that file. Whenever you save a new version of the CV there, it runs
+`update-cv.sh` automatically — the site updates within a minute or two.
+Activity is logged to `~/Library/Logs/cv-sync.log`.
+
+**Manual** (if you ever want to force it):
 
 ```sh
 cd ~/Library/CloudStorage/Dropbox-Personal/Projects/asrosenberg-site
 bash update-cv.sh
 ```
 
-That script copies the latest CV into the site, commits it, and pushes —
-the new CV is live a minute later. (A direct symlink can't work: GitHub
-only publishes committed files, so the PDF has to be copied into the repo.)
+`update-cv.sh` copies the CV into the repo, commits, and pushes. (A direct
+symlink can't work: GitHub only publishes committed files, so the PDF has to
+be copied into the repo and pushed.)
+
+To turn the automatic sync off / on:
+
+```sh
+launchctl bootout  gui/$(id -u) ~/Library/LaunchAgents/com.asrosenberg.cv-sync.plist   # off
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.asrosenberg.cv-sync.plist  # on
+```
 
 ## Layout
 
