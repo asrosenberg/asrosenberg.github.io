@@ -220,6 +220,22 @@
   .book-cover-img { width: 140px; }
 }
 
+/* Contact-page address columns --------------------------------- */
+.address-grid {
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.address-col {
+  flex: 1;
+  min-width: 220px;
+}
+
+.address-col p {
+  margin-bottom: 0;
+}
+
 /* Contact-page map embed --------------------------------------- */
 .map-wrap {
   margin: 1.6rem 0 0.5rem;
