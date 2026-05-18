@@ -17,6 +17,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "CV"
+        href: assets/asr-cv.pdf
       - text: "Papers"
         menu:
           - text: "Publications"
@@ -31,8 +33,6 @@ website:
             href: books/hierarchies.qmd
       - text: "Teaching"
         href: teaching.qmd
-      - text: "CV"
-        href: assets/asr-cv.pdf
       - text: "Contact"
         href: contact.qmd
   page-footer:

@@ -6,19 +6,25 @@ title: "Contact"
 
 The fastest way to reach me is by email. Write to **andrewrosenberg [at] ufl dot edu** — translate the brackets and "dot" into a normal address before sending.
 
-## Office
+## Address
 
-**333 Anderson Hall**\
+::: {.address-grid}
+::: {.address-col}
+**Office**\
+333 Anderson Hall\
 University of Florida\
 Gainesville, FL 32611
+:::
 
-## Mailing address
-
+::: {.address-col}
+**Mailing address**\
 University of Florida\
 Department of Political Science\
 234 Anderson Hall\
 P.O. Box 117325\
 Gainesville, FL 32611
+:::
+:::
 
 ```{=html}
 <div class="map-wrap">

@@ -12,7 +12,7 @@ title: "Publications"
 [with Nazli Avdan and Christopher F. Gelpi. *Journal of Peace Research*, Vol. 62, Iss. 2, March 2025, pp. 375–389.]{.pub-venue}
 
 ```{=html}
-<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">Over the last decade, there has been a notable surge in the movement of refugees across international borders, posing significant challenges for the international community. In response, various policy measures have been implemented, including the construction of border walls, with the aim of impeding refugee influx. However, scholars have expressed doubts regarding the effectiveness of these fortifications, suggesting that walls merely redirect migrants to alternative routes, discourage return migration, or alter migrants' cost–benefit calculations. Despite these concerns, there has been a lack of rigorous testing to support or refute these claims beyond case-specific evidence. This article addresses this gap by thoroughly examining the arguments surrounding the impact of border fencing on refugee flows. We conduct a systematic, cross-national test with a two-way fixed-effects estimator, an equivalence test, and a recently developed matching estimator for time-series cross-sectional data. Our results strongly support those who are skeptical of the impact of walls: border fencing has not had any causal impact on refugee flows between 1970 and 2017, or the statistical state-of-the-art is incapable of discerning that true effect. While walls may serve as politically attractive tools for populist leaders, their actual deterrent effects are highly questionable at best.</div></details><a href="assets/papers/walls-refugees.pdf">PDF</a><a href="https://asrosenberg.com/s/fences-replication.zip">Replication</a><a href="https://doi.org/10.1177/00223433231200918">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{avdan2023walls,
+<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">Over the last decade, there has been a notable surge in the movement of refugees across international borders, posing significant challenges for the international community. In response, various policy measures have been implemented, including the construction of border walls, with the aim of impeding refugee influx. However, scholars have expressed doubts regarding the effectiveness of these fortifications, suggesting that walls merely redirect migrants to alternative routes, discourage return migration, or alter migrants' cost–benefit calculations. Despite these concerns, there has been a lack of rigorous testing to support or refute these claims beyond case-specific evidence. This article addresses this gap by thoroughly examining the arguments surrounding the impact of border fencing on refugee flows. We conduct a systematic, cross-national test with a two-way fixed-effects estimator, an equivalence test, and a recently developed matching estimator for time-series cross-sectional data. Our results strongly support those who are skeptical of the impact of walls: border fencing has not had any causal impact on refugee flows between 1970 and 2017, or the statistical state-of-the-art is incapable of discerning that true effect. While walls may serve as politically attractive tools for populist leaders, their actual deterrent effects are highly questionable at best.</div></details><a href="assets/papers/walls-refugees.pdf">PDF</a><a href="https://doi.org/10.1177/00223433231200918">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{avdan2023walls,
   author  = {Nazli Avdan and Andrew S. Rosenberg and Christopher F. Gelpi},
   title   = {Where There's a Will, There's a Way: Border Walls and Refugees},
   journal = {Journal of Peace Research},
@@ -21,7 +21,7 @@ title: "Publications"
   pages   = {375--389},
   year    = {2025},
   doi     = {10.1177/00223433231200918},
-}</code></pre></details></div>
+}</code></pre></details><a href="https://asrosenberg.com/s/fences-replication.zip">Replication</a></div>
 ```
 :::
 :::
@@ -78,7 +78,7 @@ title: "Publications"
 [*International Studies Quarterly*, Vol. 67, Iss. 2, March 2023, sqad032.]{.pub-venue}
 
 ```{=html}
-<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">Does racial discrimination persist in global mobility rights? While many states explicitly discriminated based on race far into the twentieth century, contemporary migration policymaking is now putatively objective. The rise of white supremacist violence against all varieties of migrants, politician statements, and public support for restrictive policies calls this supposed color blindness into question. However, existing work is not discerning because most policies appear objective. In this article, I use new data on bilateral visa waiver policies from 1973 to 2013 to show that racial difference predicts whether a country receives a visa waiver, even after accounting for its economic, political, and security context. This conditional racial discrimination has worsened since 9/11. In so doing, I provide evidence of systematic racial discrimination in international visa policymaking. The results have important implications for the study of racial inequality in the international system.</div></details><a href="assets/papers/visa-waivers.pdf">PDF</a><a href="https://academic.oup.com/isq/article/67/2/sqad032/7160629#supplementary-data">Replication</a><a href="https://doi.org/10.1093/isq/sqad032">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{rosenberg2023visa,
+<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">Does racial discrimination persist in global mobility rights? While many states explicitly discriminated based on race far into the twentieth century, contemporary migration policymaking is now putatively objective. The rise of white supremacist violence against all varieties of migrants, politician statements, and public support for restrictive policies calls this supposed color blindness into question. However, existing work is not discerning because most policies appear objective. In this article, I use new data on bilateral visa waiver policies from 1973 to 2013 to show that racial difference predicts whether a country receives a visa waiver, even after accounting for its economic, political, and security context. This conditional racial discrimination has worsened since 9/11. In so doing, I provide evidence of systematic racial discrimination in international visa policymaking. The results have important implications for the study of racial inequality in the international system.</div></details><a href="assets/papers/visa-waivers.pdf">PDF</a><a href="https://doi.org/10.1093/isq/sqad032">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{rosenberg2023visa,
   author  = {Rosenberg, Andrew S.},
   title   = {Racial Discrimination in International Visa Policies},
   journal = {International Studies Quarterly},
@@ -87,7 +87,7 @@ title: "Publications"
   pages   = {sqad032},
   year    = {2023},
   doi     = {10.1093/isq/sqad032},
-}</code></pre></details></div>
+}</code></pre></details><a href="https://academic.oup.com/isq/article/67/2/sqad032/7160629#supplementary-data">Replication</a></div>
 ```
 :::
 :::
@@ -144,7 +144,7 @@ title: "Publications"
 [*International Studies Quarterly*, Vol. 63, Iss. 4, June 2019, pp. 837–845.]{.pub-venue}
 
 ```{=html}
-<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">Are international migration flows racially biased? Despite widespread consensus that racism and xenophobia affect migration processes, no measure exists to provide systematic evidence on this score. In this research note, I construct such a measure — the migration deviation. Migration deviations are the difference between the observed migration between states and the flow that we would predict based on a racially blind model that includes a wide variety of political and economic factors. Using this measure, I conduct a descriptive analysis and provide evidence that migrants from majority black states migrate far less than we would expect under a racially blind model. These results pave a new way for scholars to study international racial inequality.</div></details><a href="assets/papers/measuring-racial-bias.pdf">PDF</a><a href="https://doi.org/10.7910/DVN/HYAKKD">Replication</a><a href="https://doi.org/10.1093/isq/sqz039">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{rosenberg2019measuring,
+<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">Are international migration flows racially biased? Despite widespread consensus that racism and xenophobia affect migration processes, no measure exists to provide systematic evidence on this score. In this research note, I construct such a measure — the migration deviation. Migration deviations are the difference between the observed migration between states and the flow that we would predict based on a racially blind model that includes a wide variety of political and economic factors. Using this measure, I conduct a descriptive analysis and provide evidence that migrants from majority black states migrate far less than we would expect under a racially blind model. These results pave a new way for scholars to study international racial inequality.</div></details><a href="assets/papers/measuring-racial-bias.pdf">PDF</a><a href="https://doi.org/10.1093/isq/sqz039">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{rosenberg2019measuring,
   author  = {Rosenberg, Andrew S.},
   title   = {Measuring Racial Bias in International Migration Flows},
   journal = {International Studies Quarterly},
@@ -153,7 +153,7 @@ title: "Publications"
   pages   = {837--845},
   year    = {2019},
   doi     = {10.1093/isq/sqz039},
-}</code></pre></details></div>
+}</code></pre></details><a href="https://doi.org/10.7910/DVN/HYAKKD">Replication</a></div>
 ```
 :::
 :::
@@ -166,7 +166,7 @@ title: "Publications"
 [with Austin J. Knuppe and Bear F. Braumoeller. *Political Analysis*, Vol. 25, Iss. 3, July 2017, pp. 381–401.]{.pub-venue}
 
 ```{=html}
-<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">This article presents a conceptual clarification of asymmetric hypotheses and a discussion of methodologies available to test them. Despite the existence of a litany of theories that posit asymmetric hypotheses, most empirical studies fail to capture their core insight: boundaries separating zones of data from areas that lack data are substantively interesting. We discuss existing set-theoretic and large-N approaches to the study of asymmetric hypotheses, introduce new ones from the literatures on stochastic frontier and data envelopment analysis, evaluate their relative merits, and give three examples of how asymmetric hypotheses can be studied with this suite of tools.</div></details><a href="assets/papers/asymmetric-hypotheses.pdf">PDF</a><a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9NXGHP">Replication</a><a href="https://doi.org/10.1017/pan.2017.16">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{rosenberg2017unifying,
+<div class="pub-links"><details class="abstract-inline"><summary>Abstract</summary><div class="abstract-body">This article presents a conceptual clarification of asymmetric hypotheses and a discussion of methodologies available to test them. Despite the existence of a litany of theories that posit asymmetric hypotheses, most empirical studies fail to capture their core insight: boundaries separating zones of data from areas that lack data are substantively interesting. We discuss existing set-theoretic and large-N approaches to the study of asymmetric hypotheses, introduce new ones from the literatures on stochastic frontier and data envelopment analysis, evaluate their relative merits, and give three examples of how asymmetric hypotheses can be studied with this suite of tools.</div></details><a href="assets/papers/asymmetric-hypotheses.pdf">PDF</a><a href="https://doi.org/10.1017/pan.2017.16">DOI</a><details class="bib-inline"><summary>BibTeX</summary><pre><code>@article{rosenberg2017unifying,
   author  = {Rosenberg, Andrew S. and Knuppe, Austin J. and Braumoeller, Bear F.},
   title   = {Unifying the Study of Asymmetric Hypotheses},
   journal = {Political Analysis},
@@ -175,7 +175,7 @@ title: "Publications"
   pages   = {381--401},
   year    = {2017},
   doi     = {10.1017/pan.2017.16},
-}</code></pre></details></div>
+}</code></pre></details><a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/9NXGHP">Replication</a></div>
 ```
 :::
 :::
