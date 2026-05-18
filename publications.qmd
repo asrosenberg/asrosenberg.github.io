@@ -1,8 +1,6 @@
 ---
-title: "Publications"
+title: "Peer-Reviewed Articles"
 ---
-
-## Peer-Reviewed Articles
 
 ::: {.pub-entry}
 ![](assets/journals/jpr.jpg){.pub-cover-img fig-alt="Journal of Peace Research cover"}
