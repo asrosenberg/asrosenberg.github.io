@@ -123,7 +123,7 @@
 }
 
 .pub-links > a,
-.pub-links details.bib-inline > summary {
+.pub-links details > summary {
   color: #1d6fa5;
   text-decoration: none;
   margin-right: 0.55rem;
@@ -131,26 +131,26 @@
 }
 
 .pub-links > a:hover,
-.pub-links details.bib-inline > summary:hover {
+.pub-links details > summary:hover {
   text-decoration: underline;
 }
 
 .pub-links > a::before,
-.pub-links details.bib-inline > summary::before { content: "["; color: #888; }
+.pub-links details > summary::before { content: "["; color: #888; }
 
 .pub-links > a::after,
-.pub-links details.bib-inline > summary::after  { content: "]"; color: #888; }
+.pub-links details > summary::after  { content: "]"; color: #888; }
 
-.pub-links details.bib-inline {
+.pub-links details {
   display: inline;
 }
 
-.pub-links details.bib-inline > summary {
+.pub-links details > summary {
   display: inline;
   list-style: none;
 }
 
-.pub-links details.bib-inline > summary::-webkit-details-marker {
+.pub-links details > summary::-webkit-details-marker {
   display: none;
 }
 
@@ -168,6 +168,15 @@
   overflow-wrap: anywhere;
   font-family: "SFMono-Regular", Menlo, Consolas, monospace;
   color: #24292e;
+}
+
+.pub-links details.abstract-inline > .abstract-body {
+  display: block;
+  margin-top: 0.7rem;
+  color: #444;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  text-align: justify;
 }
 
 /* Book pages --------------------------------------------------- */
