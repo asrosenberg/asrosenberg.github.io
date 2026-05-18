@@ -154,9 +154,19 @@
   display: none;
 }
 
-.pub-links details.bib-inline > pre {
+/* When closed, render only the summary so every link stays on one line */
+.pub-links details:not([open]) > *:not(summary) {
+  display: none;
+}
+
+/* Expanded content drops to a block below the link row */
+.pub-links details[open] > pre,
+.pub-links details[open] > .abstract-body {
   display: block;
   margin-top: 0.7rem;
+}
+
+.pub-links details.bib-inline[open] > pre {
   background: #f6f8fa;
   border: 1px solid #e1e4e8;
   border-radius: 4px;
@@ -170,9 +180,7 @@
   color: #24292e;
 }
 
-.pub-links details.abstract-inline > .abstract-body {
-  display: block;
-  margin-top: 0.7rem;
+.pub-links details.abstract-inline[open] > .abstract-body {
   color: #444;
   font-size: 0.96rem;
   line-height: 1.6;
