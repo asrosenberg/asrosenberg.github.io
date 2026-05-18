@@ -1,41 +1,65 @@
 # asrosenberg-site
 
-Source for [www.andrew-rosenberg.com](https://www.andrew-rosenberg.com), a
+Source for [andrewrosenberg.com](https://andrewrosenberg.com), a
 [Quarto](https://quarto.org) website deployed via GitHub Pages.
 
-## Local development
+## How to update the site (without any special tools)
+
+1. Edit the relevant `.qmd` file in any text editor (see the layout table below).
+2. Save, then run these three commands in Terminal:
+
+   ```sh
+   cd ~/Library/CloudStorage/Dropbox-Personal/Projects/asrosenberg-site
+   git add -A
+   git commit -m "Describe what you changed"
+   git push
+   ```
+
+3. That's it. A GitHub Actions workflow rebuilds and redeploys the site
+   automatically — the live site refreshes about a minute after you push.
+
+You do **not** need Quarto installed to make text changes — GitHub builds
+the site for you. Quarto is only needed if you want to preview locally first.
+
+### Optional: preview locally before pushing
 
 ```sh
-quarto preview          # live preview at http://localhost:port
-quarto render           # build the site into _site/
+quarto preview          # live preview at http://localhost:4444
 ```
 
-The published copy is built by a GitHub Actions workflow on every push to
-`main` (see `.github/workflows/publish.yml`) and served from the `gh-pages`
-branch.
+Press `Ctrl+C` to stop the preview.
+
+## Updating the CV
+
+Your CV lives at `~/Dropbox/CV/asr-vita.pdf`. To publish a new version:
+
+```sh
+cd ~/Library/CloudStorage/Dropbox-Personal/Projects/asrosenberg-site
+bash update-cv.sh
+```
+
+That script copies the latest CV into the site, commits it, and pushes —
+the new CV is live a minute later. (A direct symlink can't work: GitHub
+only publishes committed files, so the PDF has to be copied into the repo.)
 
 ## Layout
 
 | File | Purpose |
 |------|---------|
-| `_quarto.yml`         | Site config — title, nav, theme |
+| `_quarto.yml`         | Site config — title, nav, analytics |
+| `theme.scss`          | Theme and all custom styling |
 | `index.qmd`           | Landing / about page |
 | `publications.qmd`    | Peer-reviewed articles |
-| `working-papers.qmd`  | Working papers and drafts |
-| `books.qmd`           | Book project pages |
+| `working-papers.qmd`  | Working papers |
+| `books/undesirable.qmd`, `books/hierarchies.qmd` | Book pages |
 | `teaching.qmd`        | Course list |
 | `contact.qmd`         | Contact info |
-| `styles.css`          | Custom CSS overrides |
 | `CNAME`               | Custom domain for GitHub Pages |
-| `assets/`             | Headshot, CV PDF, favicon |
+| `assets/`             | Headshot, CV PDF, journal covers, syllabi, papers |
+| `update-cv.sh`        | One-command CV publish script |
 
-## Add or update a page
+## Hosting
 
-1. Edit the relevant `.qmd` file.
-2. `quarto preview` to check locally.
-3. Commit and push — Actions handles the rest.
-
-## Updating the CV
-
-Drop a new `asr-cv.pdf` into `assets/` and commit. The nav-bar CV link points
-to that file.
+- Source on the `main` branch; the rendered site is published to `gh-pages`
+  by `.github/workflows/publish.yml` on every push.
+- Custom domain: `andrewrosenberg.com` (set in the `CNAME` file).

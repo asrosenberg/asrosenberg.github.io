@@ -7,7 +7,7 @@ project:
 website:
   title: "Andrew S. Rosenberg"
   description: "Associate Professor of Political Science, University of Florida"
-  site-url: "https://www.andrew-rosenberg.com"
+  site-url: "https://andrewrosenberg.com"
   open-graph: true
   twitter-card: true
   navbar:
