@@ -41,7 +41,6 @@ website:
 format:
   html:
     theme: [cosmo, theme.scss]
-    css: styles.css
     toc: false
     fontsize: 1.0rem
     linkcolor: "#1d6fa5"
