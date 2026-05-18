@@ -141,6 +141,8 @@
 .pub-links > a::after,
 .pub-links details > summary::after  { content: "]"; color: #888; }
 
+/* Each <details> holds ONLY its summary — a pure inline toggle with no
+   block child — so the whole link row stays on one line. */
 .pub-links details {
   display: inline;
 }
@@ -154,19 +156,28 @@
   display: none;
 }
 
-/* When closed, render only the summary so every link stays on one line */
-.pub-links details:not([open]) > *:not(summary) {
+/* Expandable panels are separate blocks after the link row, revealed
+   when their matching toggle carries the [open] attribute. */
+.pub-links .abs-panel,
+.pub-links .bib-panel {
   display: none;
 }
 
-/* Expanded content drops to a block below the link row */
-.pub-links details[open] > pre,
-.pub-links details[open] > .abstract-body {
+.pub-links details.abs-toggle[open] ~ .abs-panel,
+.pub-links details.bib-toggle[open] ~ .bib-panel {
   display: block;
   margin-top: 0.7rem;
 }
 
-.pub-links details.bib-inline[open] > pre {
+.pub-links .abs-panel {
+  color: #444;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.pub-links .bib-panel pre {
+  margin: 0;
   background: #f6f8fa;
   border: 1px solid #e1e4e8;
   border-radius: 4px;
@@ -178,13 +189,6 @@
   overflow-wrap: anywhere;
   font-family: "SFMono-Regular", Menlo, Consolas, monospace;
   color: #24292e;
-}
-
-.pub-links details.abstract-inline[open] > .abstract-body {
-  color: #444;
-  font-size: 0.96rem;
-  line-height: 1.6;
-  text-align: justify;
 }
 
 /* Book pages --------------------------------------------------- */
