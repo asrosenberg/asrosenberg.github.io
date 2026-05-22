@@ -3,6 +3,25 @@ title: "Peer-Reviewed Articles"
 ---
 
 ::: {.pub-entry}
+![](assets/journals/jop.png){.pub-cover-img fig-alt="The Journal of Politics cover"}
+
+::: {.pub-body}
+[Scarcity, Strategy, and the Racialized Politics of Refugee Admission in the Global North]{.pub-title}\
+[*The Journal of Politics*, conditionally accepted pending replication.]{.pub-venue}
+
+```{=html}
+<div class="pub-links"><details class="abs-toggle"><summary>Abstract</summary></details><details class="bib-toggle"><summary>BibTeX</summary></details><div class="abs-panel">Why do some refugee "crises" elicit generosity while others provoke restriction, particularly in the Global North? In 2015, European governments responded to Syrian arrivals with increasingly restrictive policies, yet the same states were welcoming toward Ukrainians in 2022. I develop a formal model in which governments weigh economic scarcity, the racialized identity of arrivals, and foreign-policy salience. The model predicts that scarcity amplifies restriction toward non-White groups but can weaken or even reverse restrictiveness toward White groups when crises are geopolitically salient. I test these propositions using a country–year panel of asylum-policy liberality across Global North states. The results show that scarcity heightens backlash against non-White arrivals but reduces restrictiveness toward White arrivals when foreign-policy considerations are salient. Together, the findings demonstrate how race, economic conditions, and foreign policy interact to structure the politics of protection in the Global North.</div><div class="bib-panel"><pre><code>@article{rosenberg2026refugeeadmission,
+  author   = {Rosenberg, Andrew S.},
+  title    = {Scarcity, Strategy, and the Racialized Politics of Refugee Admission in the Global North},
+  journal  = {The Journal of Politics},
+  year     = {2026},
+  note     = {Conditionally accepted pending replication},
+}</code></pre></div></div>
+```
+:::
+:::
+
+::: {.pub-entry}
 ![](assets/journals/jpr.jpg){.pub-cover-img fig-alt="Journal of Peace Research cover"}
 
 ::: {.pub-body}

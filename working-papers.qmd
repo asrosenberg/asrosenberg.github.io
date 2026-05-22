@@ -5,15 +5,6 @@ title: "Working Papers"
 Drafts available on request.
 
 ::: {.pub-entry}
-[Scarcity, Worthiness, and the Politics of Refugee Admission in the Global North]{.pub-title}\
-[R&R, *The Journal of Politics*.]{.pub-venue}
-
-```{=html}
-<details class="abstract-toggle"><summary>Abstract</summary><div class="abstract-body">Why do some refugee "crises" elicit generosity while others provoke restriction, particularly in the Global North? In 2015, European governments responded to Syrian arrivals with increasingly restrictive policies, yet the same states were welcoming toward Ukrainians in 2022. I develop a formal model in which governments weigh economic scarcity, the racialized identity of arrivals, and foreign-policy salience. The model predicts that scarcity amplifies restriction toward non-White groups but can weaken or even reverse restrictiveness toward White groups when crises are geopolitically salient. I test these propositions using a country–year panel of asylum-policy liberality across Global North states. The results show that scarcity heightens backlash against non-White arrivals but reduces restrictiveness toward White arrivals when foreign-policy considerations are salient. Together, the findings demonstrate how race, economic conditions, and foreign policy interact to structure the politics of protection in the Global North.</div></details>
-```
-:::
-
-::: {.pub-entry}
 [The Discretionary Color Line in International Institutions]{.pub-title}
 
 ```{=html}
