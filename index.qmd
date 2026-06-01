@@ -20,6 +20,9 @@ about:
     - icon: google
       text: Scholar
       href: https://scholar.google.com/citations?user=pQSgOXsAAAAJ&hl=en
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/andrew-rosenberg-b7ba1b83/
 toc: false
 ---
 
@@ -32,3 +35,7 @@ My first book ([order here!](https://press.princeton.edu/books/hardcover/9780691
 I am completing a second book, [*Hierarchies of Worth: Race, Scarcity, and the Politics of Costly Action*](books/hierarchies.qmd), which argues that international order distributes not only power and rights, but also the political costs states are willing to bear for different populations.
 
 I received a Ph.D. from the Ohio State University, an M.Sc. from the London School of Economics in International Relations (Research), and a B.A. from the Johns Hopkins University in International Studies and Political Science. I am a proud native of Des Moines, Iowa: [one of the coolest cities in the world](https://www.politico.com/magazine/story/2016/01/how-des-moines-iowa-got-cool-213552).
+
+::: {.photo-credit}
+Headshot by [Keely Rosenberg Photography](https://keelyrosenbergphotography.com/).
+:::

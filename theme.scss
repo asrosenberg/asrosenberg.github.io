@@ -403,6 +403,24 @@ blockquote {
   margin-left: 0;
 }
 
+/* Photo credit (home page) ------------------------------------- */
+.photo-credit {
+  margin-top: 2rem;
+  font-size: 0.82rem;
+  color: #888;
+  font-style: italic;
+}
+
+.photo-credit a {
+  color: #888;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.photo-credit a:hover {
+  color: #1d6fa5;
+}
+
 /* Quarto title block ------------------------------------------- */
 .quarto-title-block .quarto-title-meta { display: none; }
 

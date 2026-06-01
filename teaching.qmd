@@ -24,12 +24,12 @@ costing less than \$20 per credit hour.
 
 ::: {.pub-entry}
 [POS 6737 · Political Data Analysis]{.pub-title}\
-[Graduate. Most recently Fall 2025.]{.pub-venue}
+[Graduate. Fall 2026.]{.pub-venue}
 
 [Graduate methods sequence: applied statistics, the linear regression framework, and reproducible workflows in R. Designed for incoming political science PhD students.]{.pub-abstract}
 
 ::: {.pub-links}
-[Syllabus (Fall 2025)](assets/syllabi/pos6737-data-analysis-f25.pdf)
+[Syllabus (Fall 2026)](assets/syllabi/pos6737-data-analysis-f26.pdf)
 :::
 :::
 
