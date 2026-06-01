@@ -3,7 +3,7 @@ title: "Teaching"
 ---
 
 ::: {.affordable-banner}
-![](assets/affordable-uf.webp){.affordable-badge fig-alt="Affordable UF badge"}
+![](assets/affordable-uf.png){.affordable-badge fig-alt="Affordable UF Fall 2026 badge"}
 
 My courses have been awarded an **Affordable UF** badge for materials
 costing less than \$20 per credit hour.
