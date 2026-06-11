@@ -36,9 +36,7 @@ I am completing a second book, [*Hierarchies of Worth: Race, Scarcity, and the P
 
 I received a Ph.D. from the Ohio State University, an M.Sc. from the London School of Economics in International Relations (Research), and a B.A. from the Johns Hopkins University in International Studies and Political Science. I am a proud native of Des Moines, Iowa: [one of the coolest cities in the world](https://www.politico.com/magazine/story/2016/01/how-des-moines-iowa-got-cool-213552).
 
-::: {.prospie-note}
-*Prospective Ph.D. and M.A. applicants: please see the [Prospective students](contact.qmd#prospective-students) section on my Contact page before emailing.*
-:::
+Prospective Ph.D. and M.A. applicants: please see the [Prospective students](contact.qmd#prospective-students) section on my Contact page before emailing.
 
 ## Recent
 
