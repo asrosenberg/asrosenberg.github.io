@@ -40,7 +40,7 @@ Prospective Ph.D. and M.A. applicants: please see the [Prospective students](con
 
 ## Recent
 
-- **June 2026.** *Reliable Panel Regression: A Default Workflow for Slow-Moving, Mismeasured Variables* — new [working paper](https://osf.io/preprints/socarxiv/s7fwa_v1), with companion R package [`ferobust`](https://github.com/asrosenberg/ferobust).
+- **June 2026.** *Reliable Panel Regression: A Default Workflow for Slow-Moving, Mismeasured Variables* — new [working paper](https://arxiv.org/abs/2606.14009), with companion R package [`ferobust`](https://github.com/asrosenberg/ferobust).
 - **May 2026.** *Scarcity, Strategy, and the Racialized Politics of Refugee Admission* conditionally accepted at *The Journal of Politics*. [[preprint](https://osf.io/preprints/socarxiv/fm8u4_v1)]
 - **September 2025.** *Traces of the Past* (with Hannah Alarian and Michael Bernhard) wins Best Paper Award, APSA European Politics and Society section.
 - **September 2024.** *Barrier or Bridge? Border Walls' Varied Impacts on Terrorist Group Diffusion* (with Nazli Avdan) [published](https://doi.org/10.1177/07388942241270927) in *Conflict Management and Peace Science*.
