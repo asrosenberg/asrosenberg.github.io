@@ -9,7 +9,7 @@ set -euo pipefail
 # Ensure git and gh are found even under launchd's minimal environment.
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
-CV_SOURCE="$HOME/Dropbox/CV/asr-vita.pdf"
+CV_SOURCE="$HOME/Library/CloudStorage/Dropbox-Personal/CV/asr-vita.pdf"
 REPO="$HOME/Library/CloudStorage/Dropbox-Personal/Projects/asrosenberg-site"
 CV_DEST="$REPO/assets/asr-cv.pdf"
 
