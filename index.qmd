@@ -40,7 +40,6 @@ Prospective Ph.D. and M.A. applicants: please see the [Prospective students](con
 
 ## Recent
 
-- **July 2026.** *The Discretionary Color Line in International Institutions* — revise and resubmit at *American Political Science Review*. [[preprint](https://osf.io/preprints/socarxiv/962sx_v1)]
 - **June 2026.** *Reliable Panel Regression: A Default Workflow for Slow-Moving, Mismeasured Variables* — new [working paper](https://arxiv.org/abs/2606.14009), with companion R package [`ferobust`](https://github.com/asrosenberg/ferobust).
 - **June 2026.** *Scarcity, Strategy, and the Racialized Politics of Refugee Admission* [forthcoming](https://doi.org/10.1086/742812) at *The Journal of Politics*. [[preprint](https://osf.io/preprints/socarxiv/fm8u4_v1)]
 - **September 2025.** *Traces of the Past* (with Hannah Alarian and Michael Bernhard) wins Best Paper Award, APSA European Politics and Society section.
