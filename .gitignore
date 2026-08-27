@@ -2,6 +2,7 @@
 /_site/
 /.quarto/
 *.html
+!assets/hierarchies-two-dimensions.html
 !_freeze/**/*.html
 
 # macOS
