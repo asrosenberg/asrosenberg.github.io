@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Two Dimensions of International Hierarchy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&amp;family=Space+Grotesk:wght@400;500&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #ffffff;
+      --foreground: #2c3e50;
+      --border: #d0d7de;
+      --popover: #ffffff;
+      --popover-foreground: #2c3e50;
+      --viz-series-1: #1d6fa5;
+      --font-sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      --font-heading: "Space Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+<div id="how-two-hierarchies">
+  <style>
+    #how-two-hierarchies {
+      color: var(--foreground);
+      font-family: var(--font-sans);
+      width: 100%;
+    }
+    #how-two-hierarchies .how-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(180px, 270px);
+      align-items: end;
+      gap: 20px;
+      margin-bottom: 12px;
+    }
+    #how-two-hierarchies h2 {
+      font-family: var(--font-heading);
+      font-size: clamp(25px, 4vw, 42px);
+      line-height: 1.03;
+      letter-spacing: -0.035em;
+      margin: 0 0 6px;
+      font-weight: 500;
+    }
+    #how-two-hierarchies .how-subtitle {
+      margin: 0;
+      color: color-mix(in srgb, var(--foreground) 68%, transparent);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+    #how-two-hierarchies .how-find {
+      display: grid;
+      gap: 5px;
+      font-size: 11px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: color-mix(in srgb, var(--foreground) 66%, transparent);
+    }
+    #how-two-hierarchies .how-find input {
+      width: 100%;
+      box-sizing: border-box;
+      background: transparent;
+      color: var(--foreground);
+      border: 0;
+      border-bottom: 1px solid var(--border);
+      border-radius: 0;
+      padding: 7px 0 6px;
+      font: inherit;
+      font-size: 14px;
+      letter-spacing: 0;
+      text-transform: none;
+      outline: none;
+    }
+    #how-two-hierarchies .how-find input:focus {
+      border-bottom-color: var(--viz-series-1);
+    }
+    #how-two-hierarchies .how-plot {
+      position: relative;
+      width: 100%;
+      min-height: 430px;
+    }
+    #how-two-hierarchies svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+    #how-two-hierarchies .axis text,
+    #how-two-hierarchies text {
+      fill: var(--foreground);
+      font-size: 12px;
+    }
+    #how-two-hierarchies .axis path,
+    #how-two-hierarchies .axis line {
+      stroke: var(--border);
+    }
+    #how-two-hierarchies .how-tooltip {
+      position: absolute;
+      pointer-events: none;
+      opacity: 0;
+      z-index: 4;
+      background: var(--popover);
+      color: var(--popover-foreground);
+      border: 1px solid var(--border);
+      padding: 8px 10px;
+      font-size: 12px;
+      line-height: 1.35;
+      max-width: 230px;
+    }
+    #how-two-hierarchies .how-selected {
+      display: flex;
+      align-items: baseline;
+      gap: 12px 20px;
+      flex-wrap: wrap;
+      padding: 11px 0 9px;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+    }
+    #how-two-hierarchies .how-selected strong {
+      font-size: 16px;
+      min-width: 150px;
+    }
+    #how-two-hierarchies .how-selected span {
+      color: color-mix(in srgb, var(--foreground) 72%, transparent);
+    }
+    #how-two-hierarchies .how-selected b {
+      color: var(--foreground);
+      font-weight: 500;
+    }
+    #how-two-hierarchies .how-note {
+      margin-top: 8px;
+      font-size: 11px;
+      color: color-mix(in srgb, var(--foreground) 55%, transparent);
+    }
+    @media (max-width: 540px) {
+      #how-two-hierarchies .how-head { grid-template-columns: 1fr; gap: 10px; }
+      #how-two-hierarchies .how-find { max-width: none; }
+      #how-two-hierarchies .how-selected { gap: 5px 14px; }
+      #how-two-hierarchies .how-selected strong { flex-basis: 100%; }
+    }
+  </style>
+
+  <div class="how-head">
+    <div>
+      <h2>Two Dimensions of International Hierarchy</h2>
+      <p class="how-subtitle">Formal recognition and cross-border incorporation position states differently in world politics.</p>
+    </div>
+    <label class="how-find">Find a country
+      <input type="text" list="how-country-list" value="United States" aria-label="Find a country">
+      <datalist id="how-country-list"></datalist>
+    </label>
+  </div>
+  <div class="how-plot" aria-label="Scatterplot of state positions in two international hierarchies">
+    <svg role="img" aria-label="Each point is a state, positioned by cross-border incorporation and formal recognition"></svg>
+    <div class="how-tooltip" role="tooltip"></div>
+  </div>
+  <div class="how-selected" aria-live="polite"></div>
+  <div class="how-note">N = 155. Scores are standardized.</div>
+
+  <script type="application/json" id="how-two-hierarchies-data">[{"id":"USA","name":"United States","f":2.652,"c":0.365,"fr":1,"cr":53},{"id":"FRA","name":"France","f":2.546,"c":1.452,"fr":2,"cr":15},{"id":"CHN","name":"China","f":2.453,"c":0.319,"fr":3,"cr":57},{"id":"RUS","name":"Russia","f":2.34,"c":-0.904,"fr":4,"cr":125},{"id":"IND","name":"India","f":2.192,"c":0.549,"fr":5,"cr":41},{"id":"JPN","name":"Japan","f":2.11,"c":0.639,"fr":6,"cr":36},{"id":"GBR","name":"United Kingdom","f":2.095,"c":1.222,"fr":7,"cr":25},{"id":"BRA","name":"Brazil","f":1.949,"c":0.58,"fr":8,"cr":38},{"id":"BEL","name":"Belgium","f":1.773,"c":1.904,"fr":9,"cr":3},{"id":"ESP","name":"Spain","f":1.753,"c":1.662,"fr":10,"cr":8},{"id":"EGY","name":"Egypt","f":1.741,"c":0.406,"fr":11,"cr":49},{"id":"ITA","name":"Italy","f":1.624,"c":1.804,"fr":12,"cr":5},{"id":"DEU","name":"Germany","f":1.602,"c":1.591,"fr":13,"cr":11},{"id":"ARG","name":"Argentina","f":1.595,"c":0.392,"fr":14,"cr":50},{"id":"CAN","name":"Canada","f":1.492,"c":0.365,"fr":15,"cr":54},{"id":"MEX","name":"Mexico","f":1.477,"c":0.486,"fr":16,"cr":44},{"id":"IDN","name":"Indonesia","f":1.468,"c":0.552,"fr":17,"cr":39},{"id":"SWE","name":"Sweden","f":1.209,"c":1.878,"fr":18,"cr":4},{"id":"POL","name":"Poland","f":1.188,"c":1.416,"fr":19,"cr":18},{"id":"PAK","name":"Pakistan","f":1.108,"c":-0.26,"fr":20,"cr":92},{"id":"AUS","name":"Australia","f":1.054,"c":0.413,"fr":21,"cr":48},{"id":"KOR","name":"South Korea","f":1.052,"c":1.447,"fr":22,"cr":16},{"id":"ROU","name":"Romania","f":1.014,"c":1.726,"fr":23,"cr":7},{"id":"AUT","name":"Austria","f":1.004,"c":1.504,"fr":24,"cr":13},{"id":"NLD","name":"Netherlands","f":0.967,"c":2.068,"fr":25,"cr":1},{"id":"PHL","name":"Philippines","f":0.932,"c":0.193,"fr":26,"cr":64},{"id":"MAR","name":"Morocco","f":0.919,"c":0.083,"fr":27,"cr":75},{"id":"BGD","name":"Bangladesh","f":0.895,"c":-0.307,"fr":28,"cr":97},{"id":"NGA","name":"Nigeria","f":0.85,"c":-1.143,"fr":29,"cr":135},{"id":"DZA","name":"Algeria","f":0.829,"c":-1.511,"fr":30,"cr":147},{"id":"CUB","name":"Cuba","f":0.823,"c":-1.036,"fr":31,"cr":131},{"id":"PER","name":"Peru","f":0.798,"c":0.29,"fr":32,"cr":59},{"id":"TUR","name":"Turkey","f":0.792,"c":0.494,"fr":33,"cr":43},{"id":"HUN","name":"Hungary","f":0.764,"c":1.254,"fr":34,"cr":23},{"id":"PRT","name":"Portugal","f":0.748,"c":1.552,"fr":35,"cr":12},{"id":"IRN","name":"Iran","f":0.74,"c":-1.32,"fr":36,"cr":139},{"id":"CHL","name":"Chile","f":0.697,"c":1.199,"fr":37,"cr":26},{"id":"BGR","name":"Bulgaria","f":0.69,"c":1.261,"fr":38,"cr":22},{"id":"KEN","name":"Kenya","f":0.639,"c":-0.195,"fr":39,"cr":90},{"id":"TUN","name":"Tunisia","f":0.613,"c":0.068,"fr":40,"cr":76},{"id":"TZA","name":"Tanzania","f":0.61,"c":0.19,"fr":41,"cr":65},{"id":"COL","name":"Colombia","f":0.606,"c":-0.069,"fr":42,"cr":84},{"id":"VEN","name":"Venezuela","f":0.589,"c":0.258,"fr":43,"cr":60},{"id":"UKR","name":"Ukraine","f":0.588,"c":-0.01,"fr":44,"cr":83},{"id":"DNK","name":"Denmark","f":0.57,"c":1.972,"fr":45,"cr":2},{"id":"GRC","name":"Greece","f":0.559,"c":1.381,"fr":46,"cr":19},{"id":"THA","name":"Thailand","f":0.541,"c":0.869,"fr":47,"cr":33},{"id":"MYS","name":"Malaysia","f":0.498,"c":1.623,"fr":48,"cr":9},{"id":"FIN","name":"Finland","f":0.46,"c":1.741,"fr":49,"cr":6},{"id":"BOL","name":"Bolivia","f":0.429,"c":-0.269,"fr":50,"cr":93},{"id":"ECU","name":"Ecuador","f":0.406,"c":0.067,"fr":51,"cr":77},{"id":"VNM","name":"Vietnam","f":0.388,"c":0.552,"fr":52,"cr":40},{"id":"SEN","name":"Senegal","f":0.379,"c":0.296,"fr":53,"cr":58},{"id":"COD","name":"Congo - Kinshasa","f":0.358,"c":-0.356,"fr":54,"cr":100},{"id":"CHE","name":"Switzerland","f":0.312,"c":1.124,"fr":55,"cr":29},{"id":"SYR","name":"Syria","f":0.302,"c":-0.797,"fr":56,"cr":121},{"id":"UZB","name":"Uzbekistan","f":0.246,"c":-1.487,"fr":57,"cr":146},{"id":"LKA","name":"Sri Lanka","f":0.207,"c":0.1,"fr":58,"cr":74},{"id":"NOR","name":"Norway","f":0.183,"c":0.9,"fr":59,"cr":31},{"id":"IRQ","name":"Iraq","f":0.179,"c":-2.209,"fr":60,"cr":154},{"id":"KAZ","name":"Kazakhstan","f":0.118,"c":-1.335,"fr":61,"cr":141},{"id":"LTU","name":"Lithuania","f":0.108,"c":1.192,"fr":62,"cr":27},{"id":"URY","name":"Uruguay","f":0.075,"c":0.458,"fr":63,"cr":45},{"id":"HRV","name":"Croatia","f":0.072,"c":0.765,"fr":64,"cr":35},{"id":"CMR","name":"Cameroon","f":0.055,"c":-1.375,"fr":65,"cr":143},{"id":"SAU","name":"Saudi Arabia","f":0.018,"c":-0.819,"fr":66,"cr":123},{"id":"EST","name":"Estonia","f":0.001,"c":1.173,"fr":67,"cr":28},{"id":"PRY","name":"Paraguay","f":-0.006,"c":0.185,"fr":68,"cr":66},{"id":"GHA","name":"Ghana","f":-0.011,"c":-0.421,"fr":69,"cr":103},{"id":"ISR","name":"Israel","f":-0.021,"c":-0.921,"fr":70,"cr":126},{"id":"SDN","name":"Sudan","f":-0.052,"c":-2.593,"fr":71,"cr":155},{"id":"NIC","name":"Nicaragua","f":-0.056,"c":0.059,"fr":72,"cr":78},{"id":"GTM","name":"Guatemala","f":-0.067,"c":0.248,"fr":73,"cr":61},{"id":"NPL","name":"Nepal","f":-0.074,"c":-0.755,"fr":74,"cr":117},{"id":"NZL","name":"New Zealand","f":-0.086,"c":0.896,"fr":75,"cr":32},{"id":"ETH","name":"Ethiopia","f":-0.096,"c":-0.452,"fr":76,"cr":104},{"id":"MOZ","name":"Mozambique","f":-0.1,"c":0.417,"fr":77,"cr":47},{"id":"SVK","name":"Slovakia","f":-0.13,"c":1.29,"fr":78,"cr":21},{"id":"LBY","name":"Libya","f":-0.176,"c":-1.806,"fr":79,"cr":150},{"id":"LVA","name":"Latvia","f":-0.183,"c":1.036,"fr":80,"cr":30},{"id":"MMR","name":"Myanmar (Burma)","f":-0.189,"c":-0.35,"fr":81,"cr":98},{"id":"MDG","name":"Madagascar","f":-0.198,"c":0.587,"fr":82,"cr":37},{"id":"SVN","name":"Slovenia","f":-0.234,"c":1.431,"fr":83,"cr":17},{"id":"JOR","name":"Jordan","f":-0.245,"c":-0.608,"fr":84,"cr":113},{"id":"KHM","name":"Cambodia","f":-0.3,"c":0.39,"fr":85,"cr":51},{"id":"GEO","name":"Georgia","f":-0.321,"c":-0.51,"fr":86,"cr":107},{"id":"ZMB","name":"Zambia","f":-0.322,"c":0.211,"fr":87,"cr":63},{"id":"BFA","name":"Burkina Faso","f":-0.324,"c":-0.126,"fr":88,"cr":85},{"id":"GIN","name":"Guinea","f":-0.332,"c":-0.235,"fr":89,"cr":91},{"id":"PAN","name":"Panama","f":-0.333,"c":0.182,"fr":90,"cr":67},{"id":"DOM","name":"Dominican Republic","f":-0.355,"c":-0.763,"fr":91,"cr":118},{"id":"HND","name":"Honduras","f":-0.376,"c":0.123,"fr":92,"cr":71},{"id":"LBN","name":"Lebanon","f":-0.399,"c":-0.848,"fr":93,"cr":124},{"id":"MLI","name":"Mali","f":-0.402,"c":-0.306,"fr":94,"cr":96},{"id":"CRI","name":"Costa Rica","f":-0.406,"c":0.356,"fr":95,"cr":55},{"id":"MNG","name":"Mongolia","f":-0.409,"c":-1.326,"fr":96,"cr":140},{"id":"AFG","name":"Afghanistan","f":-0.427,"c":-1.099,"fr":97,"cr":133},{"id":"BLR","name":"Belarus","f":-0.439,"c":-0.664,"fr":98,"cr":114},{"id":"MRT","name":"Mauritania","f":-0.445,"c":0.022,"fr":99,"cr":79},{"id":"UGA","name":"Uganda","f":-0.445,"c":0.017,"fr":100,"cr":80},{"id":"YEM","name":"Yemen","f":-0.458,"c":-0.956,"fr":101,"cr":128},{"id":"GAB","name":"Gabon","f":-0.473,"c":-1.861,"fr":102,"cr":151},{"id":"ZAF","name":"South Africa","f":-0.497,"c":0.129,"fr":103,"cr":70},{"id":"NER","name":"Niger","f":-0.502,"c":-0.277,"fr":104,"cr":95},{"id":"AZE","name":"Azerbaijan","f":-0.509,"c":-1.569,"fr":105,"cr":148},{"id":"SLV","name":"El Salvador","f":-0.519,"c":-0.133,"fr":106,"cr":87},{"id":"ALB","name":"Albania","f":-0.522,"c":-1.199,"fr":107,"cr":136},{"id":"PNG","name":"Papua New Guinea","f":-0.538,"c":-0.785,"fr":108,"cr":120},{"id":"HTI","name":"Haiti","f":-0.543,"c":-0.769,"fr":109,"cr":119},{"id":"BEN","name":"Benin","f":-0.572,"c":0.119,"fr":110,"cr":73},{"id":"LAO","name":"Laos","f":-0.58,"c":-0.466,"fr":111,"cr":106},{"id":"TGO","name":"Togo","f":-0.58,"c":0.503,"fr":112,"cr":42},{"id":"SGP","name":"Singapore","f":-0.604,"c":1.611,"fr":113,"cr":10},{"id":"MWI","name":"Malawi","f":-0.614,"c":0.838,"fr":114,"cr":34},{"id":"KWT","name":"Kuwait","f":-0.65,"c":-1.48,"fr":115,"cr":145},{"id":"COG","name":"Congo - Brazzaville","f":-0.669,"c":-0.96,"fr":116,"cr":129},{"id":"IRL","name":"Ireland","f":-0.671,"c":1.458,"fr":117,"cr":14},{"id":"AGO","name":"Angola","f":-0.697,"c":-1.202,"fr":118,"cr":137},{"id":"JAM","name":"Jamaica","f":-0.698,"c":-0.351,"fr":119,"cr":99},{"id":"SLE","name":"Sierra Leone","f":-0.724,"c":0.009,"fr":120,"cr":81},{"id":"LUX","name":"Luxembourg","f":-0.821,"c":1.225,"fr":121,"cr":24},{"id":"RWA","name":"Rwanda","f":-0.831,"c":-0.157,"fr":122,"cr":88},{"id":"TCD","name":"Chad","f":-0.855,"c":-1.471,"fr":123,"cr":144},{"id":"NAM","name":"Namibia","f":-0.861,"c":-0.179,"fr":124,"cr":89},{"id":"OMN","name":"Oman","f":-0.862,"c":-0.81,"fr":125,"cr":122},{"id":"KGZ","name":"Kyrgyzstan","f":-0.863,"c":-0.596,"fr":126,"cr":111},{"id":"TKM","name":"Turkmenistan","f":-0.884,"c":-1.98,"fr":127,"cr":152},{"id":"MDA","name":"Moldova","f":-0.889,"c":-0.456,"fr":128,"cr":105},{"id":"CAF","name":"Central African Republic","f":-0.928,"c":-0.521,"fr":129,"cr":109},{"id":"ARM","name":"Armenia","f":-0.96,"c":-1.122,"fr":130,"cr":134},{"id":"CYP","name":"Cyprus","f":-0.975,"c":1.341,"fr":131,"cr":20},{"id":"LBR","name":"Liberia","f":-1.003,"c":0.245,"fr":132,"cr":62},{"id":"BDI","name":"Burundi","f":-1.009,"c":-0.006,"fr":133,"cr":82},{"id":"MKD","name":"North Macedonia","f":-1.045,"c":-0.604,"fr":134,"cr":112},{"id":"TJK","name":"Tajikistan","f":-1.062,"c":-1.37,"fr":135,"cr":142},{"id":"ARE","name":"United Arab Emirates","f":-1.088,"c":-0.364,"fr":136,"cr":102},{"id":"GUY","name":"Guyana","f":-1.089,"c":-0.27,"fr":137,"cr":94},{"id":"SUR","name":"Suriname","f":-1.108,"c":-0.359,"fr":138,"cr":101},{"id":"TTO","name":"Trinidad & Tobago","f":-1.114,"c":-0.593,"fr":139,"cr":110},{"id":"ZWE","name":"Zimbabwe","f":-1.117,"c":-0.132,"fr":140,"cr":86},{"id":"LSO","name":"Lesotho","f":-1.217,"c":0.122,"fr":141,"cr":72},{"id":"MUS","name":"Mauritius","f":-1.218,"c":0.423,"fr":142,"cr":46},{"id":"SOM","name":"Somalia","f":-1.23,"c":-1.013,"fr":143,"cr":130},{"id":"GNB","name":"Guinea-Bissau","f":-1.26,"c":0.338,"fr":144,"cr":56},{"id":"BIH","name":"Bosnia & Herzegovina","f":-1.318,"c":-0.745,"fr":145,"cr":116},{"id":"SWZ","name":"Eswatini","f":-1.402,"c":0.144,"fr":146,"cr":68},{"id":"BWA","name":"Botswana","f":-1.452,"c":-0.942,"fr":147,"cr":127},{"id":"CPV","name":"Cape Verde","f":-1.471,"c":-0.706,"fr":148,"cr":115},{"id":"QAT","name":"Qatar","f":-1.517,"c":-1.716,"fr":149,"cr":149},{"id":"ERI","name":"Eritrea","f":-1.554,"c":-1.258,"fr":150,"cr":138},{"id":"BHR","name":"Bahrain","f":-1.567,"c":-1.061,"fr":151,"cr":132},{"id":"GMB","name":"Gambia","f":-1.684,"c":0.368,"fr":152,"cr":52},{"id":"GNQ","name":"Equatorial Guinea","f":-1.907,"c":-2.108,"fr":153,"cr":153},{"id":"BTN","name":"Bhutan","f":-2.107,"c":-0.518,"fr":154,"cr":108},{"id":"COM","name":"Comoros","f":-2.195,"c":0.132,"fr":155,"cr":69}]</script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script>
+    (() => {
+      const root = document.getElementById('how-two-hierarchies');
+      const data = JSON.parse(document.getElementById('how-two-hierarchies-data').textContent);
+      const plot = root.querySelector('.how-plot');
+      const svg = d3.select(root.querySelector('svg'));
+      const tooltip = root.querySelector('.how-tooltip');
+      const selectedLine = root.querySelector('.how-selected');
+      const input = root.querySelector('input');
+      const datalist = root.querySelector('datalist');
+      let selected = data.find(d => d.id === 'USA');
+
+      data.slice().sort((a, b) => d3.ascending(a.name, b.name)).forEach(d => {
+        const option = document.createElement('option');
+        option.value = d.name;
+        option.label = d.id;
+        datalist.appendChild(option);
+      });
+
+      function updateSelectedLine() {
+        selectedLine.innerHTML = `<strong>${selected.name}</strong><span>Formal recognition <b>#${selected.fr}</b> of 155</span><span>Cross-border incorporation <b>#${selected.cr}</b> of 155</span>`;
+      }
+
+      function draw() {
+        const width = Math.max(320, plot.getBoundingClientRect().width || 720);
+        const compact = width < 540;
+        const height = compact ? 455 : Math.min(620, Math.max(470, width * .61));
+        const margin = compact
+          ? {top: 28, right: 18, bottom: 72, left: 64}
+          : {top: 34, right: 34, bottom: 70, left: 72};
+        const innerW = width - margin.left - margin.right;
+        const innerH = height - margin.top - margin.bottom;
+        const xExtent = d3.extent(data, d => d.c);
+        const yExtent = d3.extent(data, d => d.f);
+        const xPad = (xExtent[1] - xExtent[0]) * .08;
+        const yPad = (yExtent[1] - yExtent[0]) * .08;
+        const x = d3.scaleLinear().domain([xExtent[0] - xPad, xExtent[1] + xPad]).range([margin.left + 8, width - margin.right - 8]);
+        const y = d3.scaleLinear().domain([yExtent[0] - yPad, yExtent[1] + yPad]).range([height - margin.bottom - 8, margin.top + 8]);
+        const xTicks = compact ? 4 : 6;
+        const yTicks = compact ? 4 : 6;
+
+        svg.attr('viewBox', `0 0 ${width} ${height}`);
+        svg.selectAll('*').remove();
+        svg.append('rect')
+          .attr('data-chart-frame', '')
+          .attr('x', margin.left).attr('y', margin.top)
+          .attr('width', innerW).attr('height', innerH)
+          .attr('fill', 'transparent').attr('stroke', 'var(--border)');
+
+        const grid = svg.append('g');
+        grid.selectAll('.x-grid').data(x.ticks(xTicks)).join('line')
+          .attr('x1', d => x(d)).attr('x2', d => x(d))
+          .attr('y1', margin.top).attr('y2', height - margin.bottom)
+          .attr('stroke', 'color-mix(in srgb, var(--border) 58%, transparent)')
+          .attr('stroke-dasharray', d => Math.abs(d) < 1e-8 ? '4 4' : '2 7');
+        grid.selectAll('.y-grid').data(y.ticks(yTicks)).join('line')
+          .attr('x1', margin.left).attr('x2', width - margin.right)
+          .attr('y1', d => y(d)).attr('y2', d => y(d))
+          .attr('stroke', 'color-mix(in srgb, var(--border) 58%, transparent)')
+          .attr('stroke-dasharray', d => Math.abs(d) < 1e-8 ? '4 4' : '2 7');
+
+        svg.append('g').attr('class', 'axis')
+          .attr('transform', `translate(0,${height - margin.bottom})`)
+          .call(d3.axisBottom(x).ticks(xTicks).tickSizeOuter(0));
+        svg.append('g').attr('class', 'axis')
+          .attr('transform', `translate(${margin.left},0)`)
+          .call(d3.axisLeft(y).ticks(yTicks).tickSizeOuter(0));
+
+        svg.append('text').attr('class', 'axis-title').attr('data-axis', 'x')
+          .attr('x', margin.left + innerW / 2).attr('y', height - 18)
+          .attr('text-anchor', 'middle')
+          .text('Cross-border incorporation  ·  closed  ⟶  open');
+        svg.append('text').attr('class', 'axis-title').attr('data-axis', 'y')
+          .attr('transform', `translate(18,${margin.top + innerH / 2}) rotate(-90)`)
+          .attr('text-anchor', 'middle')
+          .text('Formal recognition  ·  marginal  ⟶  central');
+
+        if (!compact) {
+          const q = [
+            {x: margin.left + 12, y: margin.top + 18, a: 'start', t: 'Recognized, but selectively open'},
+            {x: width - margin.right - 12, y: margin.top + 18, a: 'end', t: 'Central in both'},
+            {x: margin.left + 12, y: height - margin.bottom - 12, a: 'start', t: 'Peripheral in both'},
+            {x: width - margin.right - 12, y: height - margin.bottom - 12, a: 'end', t: 'Open, less formally central'}
+          ];
+          svg.append('g').selectAll('text').data(q).join('text')
+            .attr('x', d => d.x).attr('y', d => d.y).attr('text-anchor', d => d.a)
+            .attr('fill', 'color-mix(in srgb, var(--foreground) 46%, transparent)')
+            .attr('font-size', 11).text(d => d.t);
+        }
+
+        const guides = svg.append('g').attr('pointer-events', 'none');
+        guides.append('line').attr('x1', x(selected.c)).attr('x2', x(selected.c))
+          .attr('y1', y(selected.f)).attr('y2', height - margin.bottom)
+          .attr('stroke', 'var(--viz-series-1)').attr('stroke-dasharray', '3 4');
+        guides.append('line').attr('x1', margin.left).attr('x2', x(selected.c))
+          .attr('y1', y(selected.f)).attr('y2', y(selected.f))
+          .attr('stroke', 'var(--viz-series-1)').attr('stroke-dasharray', '3 4');
+
+        const dots = svg.append('g').selectAll('circle').data(data).join('circle')
+          .attr('cx', d => x(d.c)).attr('cy', d => y(d.f))
+          .attr('r', d => d.id === selected.id ? 6.5 : 3.6)
+          .attr('fill', d => d.id === selected.id ? 'var(--viz-series-1)' : 'var(--foreground)')
+          .attr('opacity', d => d.id === selected.id ? 1 : .34)
+          .attr('stroke', d => d.id === selected.id ? 'var(--background)' : 'none')
+          .attr('stroke-width', 1.5);
+
+        const exemplars = compact ? [selected.id] : ['USA', 'RUS', 'NLD', 'SGP', 'FRA', 'GNQ', selected.id];
+        const labelData = data.filter(d => exemplars.includes(d.id));
+        svg.append('g').selectAll('text').data(labelData).join('text')
+          .attr('x', d => x(d.c) + (d.c > x.domain()[1] - .35 ? -8 : 8))
+          .attr('y', d => y(d.f) - 7)
+          .attr('text-anchor', d => d.c > x.domain()[1] - .35 ? 'end' : 'start')
+          .attr('font-weight', d => d.id === selected.id ? 500 : 400)
+          .attr('font-size', 11).text(d => d.id);
+
+        const overlay = svg.append('rect')
+          .attr('data-chart-hit', '').attr('data-chart-hover-overlay', 'nearest-point')
+          .attr('x', margin.left).attr('y', margin.top)
+          .attr('width', innerW).attr('height', innerH)
+          .attr('fill', 'transparent').style('cursor', 'crosshair');
+
+        function nearest(event) {
+          const [mx, my] = d3.pointer(event, svg.node());
+          let best = null;
+          let distance = Infinity;
+          for (const d of data) {
+            const dist = (x(d.c) - mx) ** 2 + (y(d.f) - my) ** 2;
+            if (dist < distance) { distance = dist; best = d; }
+          }
+          return distance <= 32 ** 2 ? best : null;
+        }
+
+        overlay.on('pointermove', event => {
+          const d = nearest(event);
+          if (!d) { tooltip.style.opacity = 0; return; }
+          const bounds = plot.getBoundingClientRect();
+          const px = Math.min(bounds.width - 180, Math.max(6, event.clientX - bounds.left + 12));
+          const py = Math.max(6, event.clientY - bounds.top - 54);
+          tooltip.innerHTML = `<strong>${d.name}</strong><br>Formal recognition: #${d.fr}<br>Cross-border incorporation: #${d.cr}`;
+          tooltip.style.left = `${px}px`;
+          tooltip.style.top = `${py}px`;
+          tooltip.style.opacity = 1;
+        }).on('pointerleave', () => { tooltip.style.opacity = 0; })
+          .on('click', event => {
+            const d = nearest(event);
+            if (!d) return;
+            selected = d;
+            input.value = d.name;
+            updateSelectedLine();
+            draw();
+          });
+
+        dots.attr('aria-label', d => `${d.name}: formal rank ${d.fr}, cross-border rank ${d.cr}`);
+      }
+
+      function selectFromSearch() {
+        const value = input.value.trim().toLowerCase();
+        const match = data.find(d => d.name.toLowerCase() === value || d.id.toLowerCase() === value);
+        if (!match) return;
+        selected = match;
+        input.value = match.name;
+        updateSelectedLine();
+        draw();
+      }
+
+      input.addEventListener('change', selectFromSearch);
+      input.addEventListener('keydown', event => {
+        if (event.key !== 'Enter') return;
+        selectFromSearch();
+        input.blur();
+      });
+
+      updateSelectedLine();
+      const observer = new ResizeObserver(draw);
+      observer.observe(plot);
+      draw();
+    })();
+  </script>
+</div>
+</body>
+</html>
