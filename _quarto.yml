@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - assets/countries-50m.mjs
   render:
     - "*.qmd"
 
