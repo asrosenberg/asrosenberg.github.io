@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-703d6fe01acc8df9297784308ac76d11.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a6b9cb9b2dc4d9a1b9c8b3d055f5376f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -187,9 +187,45 @@ ul.task-list li input[type="checkbox"] {
 <p>India, for example, occupies a favorable position in diplomatic and organizational hierarchies while its citizens occupy a considerably less favorable one in international mobility. I show that the hierarchies are remarkably durable within each area, and their racial structures vary across domains. I then show how race structures both dimensions and shapes whose claims governments treat as worth the cost.</p>
 <p>I argue that race and racism are central to the contemporary and historical emergence of this architecture. But the results show that there is not a single global racial hierarchy. Instead, these racialized positions matter differently in different areas of international politics.</p>
 <div class="hierarchy-figure">
-<iframe src="../assets/hierarchies-two-dimensions.html" title="Interactive linked map and chart showing countries' positions in formal recognition and cross-border incorporation" loading="lazy">
+<iframe id="hierarchy-current-view" src="../assets/hierarchies-two-dimensions.html?v=20260904" title="Interactive linked map and chart showing countries' positions in formal recognition and cross-border incorporation" loading="lazy">
 </iframe>
 </div>
+<div class="hierarchy-figure hierarchy-history-figure">
+<iframe id="hierarchy-history-view" src="../assets/hierarchies-over-time.html?v=20260904" title="Interactive chart showing countries' formal-recognition and cross-border-incorporation positions from 1973 to 2019" loading="lazy">
+</iframe>
+</div>
+<script>
+(() => {
+  const currentFrame = document.getElementById("hierarchy-current-view");
+  const historyFrame = document.getElementById("hierarchy-history-view");
+  let selectedCountry = { id: "IND", name: "India" };
+
+  function sendToHistory() {
+    if (!historyFrame?.contentWindow) return;
+    historyFrame.contentWindow.postMessage({
+      type: "hierarchy-country",
+      id: selectedCountry.id,
+      name: selectedCountry.name
+    }, "*");
+  }
+
+  window.addEventListener("message", event => {
+    const message = event.data;
+    if (!message || typeof message !== "object") return;
+
+    if (event.source === currentFrame?.contentWindow &&
+        message.type === "hierarchy-country" && message.id) {
+      selectedCountry = { id: message.id, name: message.name || message.id };
+      sendToHistory();
+    }
+
+    if (event.source === historyFrame?.contentWindow &&
+        message.type === "hierarchy-ready") {
+      sendToHistory();
+    }
+  });
+})();
+</script>
 </div>
 </div>
 
