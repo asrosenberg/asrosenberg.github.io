@@ -464,16 +464,18 @@
       updateActiveMarks();
     }
 
-    function resolveInput() {
+    function resolveInput(allowCode = false) {
       const query = input.value.trim().toLowerCase();
-      const match = data.find(d => d.name.toLowerCase() === query || d.id.toLowerCase() === query);
+      const match = data.find(d => d.name.toLowerCase() === query || (allowCode && d.id.toLowerCase() === query));
       if (match) chooseCountry(match);
     }
 
-    input.addEventListener('input', resolveInput);
-    input.addEventListener('change', resolveInput);
+    input.addEventListener('focus', () => input.select());
+    input.addEventListener('click', () => input.select());
+    input.addEventListener('input', () => resolveInput());
+    input.addEventListener('change', () => resolveInput(true));
     input.addEventListener('keydown', event => {
-      if (event.key === 'Enter') resolveInput();
+      if (event.key === 'Enter') resolveInput(true);
     });
 
     const observer = new ResizeObserver(draw);
