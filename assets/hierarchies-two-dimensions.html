@@ -309,9 +309,18 @@
 
     function hideTooltip() { tooltip.style.opacity = '0'; }
 
+    function announceCountry(d) {
+      window.parent.postMessage({
+        type: 'hierarchy-country',
+        id: d.id,
+        name: d.name
+      }, '*');
+    }
+
     function enterCountry(event, d) {
       hovered = d;
       updateActiveMarks();
+      announceCountry(d);
       showTooltip(event, d);
     }
 
@@ -321,6 +330,7 @@
       hovered = null;
       hideTooltip();
       updateActiveMarks();
+      announceCountry(selected);
     }
 
     function chooseCountry(d) {
@@ -329,11 +339,7 @@
       hovered = null;
       hideTooltip();
       updateActiveMarks();
-      window.parent.postMessage({
-        type: 'hierarchy-country',
-        id: d.id,
-        name: d.name
-      }, '*');
+      announceCountry(d);
     }
 
     function drawMap() {
