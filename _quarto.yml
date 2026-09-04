@@ -3,6 +3,8 @@ project:
   output-dir: _site
   resources:
     - assets/countries-50m.mjs
+    - assets/hierarchies-two-dimensions.html
+    - assets/hierarchies-over-time.html
   render:
     - "*.qmd"
 
