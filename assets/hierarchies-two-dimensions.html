@@ -470,6 +470,7 @@
       if (match) chooseCountry(match);
     }
 
+    input.addEventListener('input', resolveInput);
     input.addEventListener('change', resolveInput);
     input.addEventListener('keydown', event => {
       if (event.key === 'Enter') resolveInput();
