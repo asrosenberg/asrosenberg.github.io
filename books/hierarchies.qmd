@@ -16,7 +16,7 @@ India, for example, occupies a favorable position in diplomatic and organization
 I argue that race and racism are central to the contemporary and historical emergence of this architecture. But the results show that there is not a single global racial hierarchy. Instead, these racialized positions matter differently in different areas of international politics.
 
 <div class="hierarchy-figure">
-<iframe id="hierarchy-current-view" src="../assets/hierarchies-two-dimensions.html?v=20260904d" title="Interactive linked map and chart showing countries' positions in formal recognition and cross-border incorporation" loading="lazy"></iframe>
+<iframe id="hierarchy-current-view" src="../assets/hierarchies-two-dimensions.html?v=20260904e" title="Interactive linked map and chart showing countries' positions in formal recognition and cross-border incorporation" loading="lazy"></iframe>
 </div>
 
 <div class="hierarchy-figure hierarchy-history-figure">
