@@ -55,21 +55,6 @@
       letter-spacing: -0.025em;
       font-weight: 720;
     }
-    #country-position-history-mockup .history-subtitle {
-      margin-top: 8px;
-      max-width: 680px;
-      color: var(--muted-foreground);
-      font-size: 15px;
-      line-height: 1.45;
-    }
-    #country-position-history-mockup .history-detail {
-      min-height: 44px;
-      padding: 14px 0 8px;
-      color: var(--foreground);
-      font-size: 13px;
-      line-height: 1.35;
-      font-variant-numeric: tabular-nums;
-    }
     #country-position-history-mockup .history-plot { width: 100%; }
     #country-position-history-mockup svg {
       display: block;
@@ -152,17 +137,11 @@
       line-height: 1.4;
       font-variant-numeric: tabular-nums;
     }
-    @media (max-width: 680px) {
-      #country-position-history-mockup .history-detail { min-height: 58px; }
-    }
   </style>
 
   <div class="history-header">
     <h2>Country positions, 1973–2019</h2>
-    <p class="history-subtitle">The selected country’s positions across five historical periods.</p>
   </div>
-
-  <div id="history-selected-detail" class="history-detail" aria-live="polite"></div>
 
   <div id="history-combined-plot" class="history-plot"></div>
   <div id="history-tooltip" class="history-tooltip" role="tooltip"></div>
@@ -181,7 +160,6 @@
         [4, "2000–09"],
         [5, "2010–19"]
       ]);
-      const detail = root.querySelector("#history-selected-detail");
       const tooltip = root.querySelector("#history-tooltip");
       const grouped = d3.group(DATA, d => d.e);
       const byIso = new Map(DATA.filter(d => d.i).map(d => [d.i, d.e]));
@@ -203,19 +181,6 @@
         return (grouped.get(selectedId) || []).slice().sort((a, b) => a.p - b.p);
       }
 
-      function updateDetail(row) {
-        const rows = selectedRows();
-        const current = row || rows[rows.length - 1];
-        if (!current) {
-          detail.innerHTML = `<strong>${selectedName}</strong> · No historical series available`;
-          return;
-        }
-        const parts = [`<strong>${current.c}</strong> · ${periods.get(current.p)}`];
-        if (Number.isFinite(current.f)) parts.push(`Formal: ${scoreFormat(current.f)} (rank ${current.fr} of ${current.n})`);
-        if (Number.isFinite(current.b)) parts.push(`Cross-border: ${scoreFormat(current.b)} (rank ${current.br} of ${current.n})`);
-        detail.innerHTML = parts.join(" · ");
-      }
-
       function showTooltip(event, row) {
         const rootBox = root.getBoundingClientRect();
         const tooltipRows = [`<strong>${row.c}</strong>`, periods.get(row.p)];
@@ -230,12 +195,10 @@
         if (top < 0) top = event.clientY - rootBox.top + 12;
         tooltip.style.left = `${Math.max(0, left)}px`;
         tooltip.style.top = `${top}px`;
-        updateDetail(row);
       }
 
       function hideTooltip() {
         tooltip.style.display = "none";
-        updateDetail();
       }
 
       function draw() {
@@ -402,7 +365,6 @@
         redraw();
       });
 
-      updateDetail();
       redraw();
       window.parent.postMessage({ type: "hierarchy-ready" }, "*");
     })();

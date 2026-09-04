@@ -304,16 +304,16 @@ p {
 .hierarchy-figure iframe {
   display: block;
   width: 100%;
-  height: 760px;
+  height: 600px;
   border: 0;
 }
 
 .hierarchy-history-figure {
-  margin-top: 1.4rem;
+  margin-top: 0.5rem;
 }
 
 .hierarchy-history-figure iframe {
-  height: 650px;
+  height: 550px;
 }
 
 @media (max-width: 640px) {
@@ -321,7 +321,7 @@ p {
   .book-page > p:first-child { flex: 0 0 auto; }
   .book-cover-img { width: 140px; }
   .hierarchy-figure iframe { height: 1040px; }
-  .hierarchy-history-figure iframe { height: 650px; }
+  .hierarchy-history-figure iframe { height: 550px; }
 }
 
 /* Contact-page address columns --------------------------------- */
