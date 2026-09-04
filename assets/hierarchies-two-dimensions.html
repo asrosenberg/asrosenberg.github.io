@@ -11,14 +11,14 @@
     :root {
       color-scheme: light;
       --background: #ffffff;
-      --foreground: #2c3e50;
-      --muted: #6c7b86;
+      --foreground: #202020;
+      --muted: #65717a;
       --border: #d0d7de;
       --land: #e8edf1;
       --land-empty: #f5f7f8;
       --point: #8799a5;
-      --accent: #1d6fa5;
-      --accent-dark: #15547d;
+      --accent: #f2c300;
+      --accent-dark: #202020;
       --font-sans: "IBM Plex Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
       --font-heading: "Space Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
@@ -41,11 +41,14 @@
     }
     #how-two-hierarchies * { box-sizing: border-box; }
     #how-two-hierarchies .how-head {
+      margin-bottom: 18px;
+    }
+    #how-two-hierarchies .how-head-row {
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(180px, 270px);
       align-items: end;
       gap: 20px;
-      margin-bottom: 18px;
+      margin-top: 8px;
     }
     #how-two-hierarchies h2 {
       margin: 0 0 6px;
@@ -54,6 +57,7 @@
       font-weight: 500;
       line-height: 1.03;
       letter-spacing: -0.035em;
+      white-space: nowrap;
     }
     #how-two-hierarchies .how-subtitle {
       margin: 0;
@@ -133,8 +137,8 @@
     #how-two-hierarchies .dot.is-active {
       fill: var(--accent);
       opacity: 1;
-      stroke: #ffffff;
-      stroke-width: 1.8;
+      stroke: var(--foreground);
+      stroke-width: 1.4;
     }
     #how-two-hierarchies .how-tooltip {
       position: absolute;
@@ -182,7 +186,8 @@
       font-size: 11px;
     }
     @media (max-width: 720px) {
-      #how-two-hierarchies .how-head { grid-template-columns: 1fr; gap: 10px; }
+      #how-two-hierarchies .how-head-row { grid-template-columns: 1fr; gap: 10px; }
+      #how-two-hierarchies h2 { white-space: normal; }
       #how-two-hierarchies .how-views { grid-template-columns: 1fr; gap: 16px; }
       #how-two-hierarchies .how-map-panel { max-width: 620px; }
       #how-two-hierarchies .how-selected { gap: 5px 14px; }
@@ -191,14 +196,14 @@
   </style>
 
   <div class="how-head">
-    <div>
-      <h2>Two Dimensions of International Hierarchy</h2>
+    <h2>Two Dimensions of International Hierarchy</h2>
+    <div class="how-head-row">
       <p class="how-subtitle">Move across the map or the chart to see how the same country occupies two different positions.</p>
+      <label class="how-find">Find a country
+        <input type="text" list="how-country-list" value="India" aria-label="Find a country">
+        <datalist id="how-country-list"></datalist>
+      </label>
     </div>
-    <label class="how-find">Find a country
-      <input type="text" list="how-country-list" value="United States" aria-label="Find a country">
-      <datalist id="how-country-list"></datalist>
-    </label>
   </div>
 
   <div class="how-views">
@@ -250,7 +255,7 @@
     const tooltip = root.querySelector('.how-tooltip');
     const input = root.querySelector('input');
     const datalist = root.querySelector('datalist');
-    let selected = byId.get('USA');
+    let selected = byId.get('IND');
     let hovered = null;
     let pointPositions = new Map();
 
@@ -324,6 +329,11 @@
       hovered = null;
       hideTooltip();
       updateActiveMarks();
+      window.parent.postMessage({
+        type: 'hierarchy-country',
+        id: d.id,
+        name: d.name
+      }, '*');
     }
 
     function drawMap() {

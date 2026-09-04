@@ -3,6 +3,7 @@
 /.quarto/
 *.html
 !assets/hierarchies-two-dimensions.html
+!assets/hierarchies-over-time.html
 !_freeze/**/*.html
 
 # macOS

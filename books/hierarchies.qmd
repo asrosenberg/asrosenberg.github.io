@@ -16,8 +16,45 @@ India, for example, occupies a favorable position in diplomatic and organization
 I argue that race and racism are central to the contemporary and historical emergence of this architecture. But the results show that there is not a single global racial hierarchy. Instead, these racialized positions matter differently in different areas of international politics.
 
 <div class="hierarchy-figure">
-<iframe src="../assets/hierarchies-two-dimensions.html" title="Interactive linked map and chart showing countries' positions in formal recognition and cross-border incorporation" loading="lazy"></iframe>
+<iframe id="hierarchy-current-view" src="../assets/hierarchies-two-dimensions.html?v=20260904" title="Interactive linked map and chart showing countries' positions in formal recognition and cross-border incorporation" loading="lazy"></iframe>
 </div>
+
+<div class="hierarchy-figure hierarchy-history-figure">
+<iframe id="hierarchy-history-view" src="../assets/hierarchies-over-time.html?v=20260904" title="Interactive chart showing countries' formal-recognition and cross-border-incorporation positions from 1973 to 2019" loading="lazy"></iframe>
+</div>
+
+<script>
+(() => {
+  const currentFrame = document.getElementById("hierarchy-current-view");
+  const historyFrame = document.getElementById("hierarchy-history-view");
+  let selectedCountry = { id: "IND", name: "India" };
+
+  function sendToHistory() {
+    if (!historyFrame?.contentWindow) return;
+    historyFrame.contentWindow.postMessage({
+      type: "hierarchy-country",
+      id: selectedCountry.id,
+      name: selectedCountry.name
+    }, "*");
+  }
+
+  window.addEventListener("message", event => {
+    const message = event.data;
+    if (!message || typeof message !== "object") return;
+
+    if (event.source === currentFrame?.contentWindow &&
+        message.type === "hierarchy-country" && message.id) {
+      selectedCountry = { id: message.id, name: message.name || message.id };
+      sendToHistory();
+    }
+
+    if (event.source === historyFrame?.contentWindow &&
+        message.type === "hierarchy-ready") {
+      sendToHistory();
+    }
+  });
+})();
+</script>
 
 :::
 :::

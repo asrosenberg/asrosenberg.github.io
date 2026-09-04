@@ -308,11 +308,20 @@ p {
   border: 0;
 }
 
+.hierarchy-history-figure {
+  margin-top: 1.4rem;
+}
+
+.hierarchy-history-figure iframe {
+  height: 650px;
+}
+
 @media (max-width: 640px) {
   .book-page { flex-direction: column; gap: 1rem; }
   .book-page > p:first-child { flex: 0 0 auto; }
   .book-cover-img { width: 140px; }
   .hierarchy-figure iframe { height: 1040px; }
+  .hierarchy-history-figure iframe { height: 650px; }
 }
 
 /* Contact-page address columns --------------------------------- */
