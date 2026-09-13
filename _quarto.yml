@@ -5,6 +5,7 @@ project:
     - assets/countries-50m.mjs
     - assets/hierarchies-two-dimensions.html
     - assets/hierarchies-over-time.html
+    - assets/hierarchies-seven-domains-2019.html
   render:
     - "*.qmd"
 
