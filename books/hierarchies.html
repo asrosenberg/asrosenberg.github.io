@@ -183,46 +183,22 @@ ul.task-list li input[type="checkbox"] {
 <div class="book-body">
 <p><em>Race and the Distribution of Concern in World Politics.</em> Book manuscript under review.</p>
 <p>Why do states sometimes absorb substantial costs to protect some foreign populations while treating much smaller costs as prohibitive for others? I call this inequality the distribution of concern, which is the variation in the political weight states attach to people beyond their own political communities. I develop this argument into a general theory of international hierarchy. I show that a single global hierarchy does not organize international order. Instead, it is marked by an architecture of different positions that depend on the given area of international politics.</p>
-<p>I use a measurement model to show that this hierarchy has two distinct dimensions across six areas of international politics: formal recognition and cross-border incorporation. Formal recognition encompasses diplomacy, international organizations, and treaties. Cross-border incorporation encompasses mobility, market access, and trade incorporation.</p>
+<p>I use a measurement model to compare countries’ positions across seven areas of international politics: diplomacy, international organizations, treaty formation, mobility, trade, cross-border banking, and investment agreements. In the 2019 data, two related dimensions emerge: state connectedness and mobility-linked access.</p>
 <p>India, for example, occupies a favorable position in diplomatic and organizational hierarchies while its citizens occupy a considerably less favorable one in international mobility. I show that the hierarchies are remarkably durable within each area, and their racial structures vary across domains. I then show how race structures both dimensions and shapes whose claims governments treat as worth the cost.</p>
 <p>I argue that race and racism are central to the contemporary and historical emergence of this architecture. But the results show that there is not a single global racial hierarchy. Instead, these racialized positions matter differently in different areas of international politics.</p>
 <div class="hierarchy-figure">
-<iframe id="hierarchy-current-view" src="../assets/hierarchies-two-dimensions.html?v=20260904e" title="Interactive linked map and chart showing countries' positions in formal recognition and cross-border incorporation" loading="lazy">
-</iframe>
-</div>
-<div class="hierarchy-figure hierarchy-history-figure">
-<iframe id="hierarchy-history-view" src="../assets/hierarchies-over-time.html?v=20260904c" title="Interactive chart showing countries' formal-recognition and cross-border-incorporation positions from 1973 to 2019" loading="lazy">
+<iframe id="hierarchy-current-view" src="../assets/hierarchies-seven-domains-2019.html?v=20260913v6" title="Interactive map, country positions and seven-domain profile in 2019" loading="lazy" style="height: 1100px">
 </iframe>
 </div>
 <script>
 (() => {
-  const currentFrame = document.getElementById("hierarchy-current-view");
-  const historyFrame = document.getElementById("hierarchy-history-view");
-  let selectedCountry = { id: "IND", name: "India" };
-
-  function sendToHistory() {
-    if (!historyFrame?.contentWindow) return;
-    historyFrame.contentWindow.postMessage({
-      type: "hierarchy-country",
-      id: selectedCountry.id,
-      name: selectedCountry.name
-    }, "*");
-  }
-
-  window.addEventListener("message", event => {
+  const frame = document.getElementById('hierarchy-current-view');
+  window.addEventListener('message', event => {
+    if (event.source !== frame?.contentWindow || event.origin !== window.location.origin) return;
     const message = event.data;
-    if (!message || typeof message !== "object") return;
-
-    if (event.source === currentFrame?.contentWindow &&
-        message.type === "hierarchy-country" && message.id) {
-      selectedCountry = { id: message.id, name: message.name || message.id };
-      sendToHistory();
-    }
-
-    if (event.source === historyFrame?.contentWindow &&
-        message.type === "hierarchy-ready") {
-      sendToHistory();
-    }
+    if (!message || message.type !== 'hierarchy-figure-height' ||
+        !Number.isFinite(message.height) || message.height < 300 || message.height > 5000) return;
+    frame.style.height = `${Math.ceil(message.height)}px`;
   });
 })();
 </script>
